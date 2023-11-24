@@ -25,6 +25,12 @@
     </nav>
     <!-- Header Content -->
     <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300">
+      <div class="absolute bg-default top-16 h-[418px] w-[441px] rounded-full left-5 text-white">
+        Lingkaran
+      </div>
+      <div class="absolute bg-default top-[530px] h-[65px] w-[65px] rounded-full left-[700px] text-white animate-bounce shadow-2xl z-10 cursor-pointer" title="See More">
+       <img src="@/assets/down-arrow.png" class="">
+      </div>
       <div class=" absolute w-[497px] h-[578px] right-3 ">
         <img src="@/assets/kimo-header.png">
       </div>
@@ -33,7 +39,7 @@
 
   <main class="h-[3000px]">
     <!-- Our Program Title -->
-    <div class="bg-white h-52 w-full relative ">
+    <div class="bg-white h-52 w-full relative">
       <h1 class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] absolute left-[300px] top-5">
         Rasakan  Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!</h1>
         <p class="font-Roboto text-center  absolute left-[300px] top-36 text-[20px]">
@@ -41,7 +47,7 @@
         </p>
     </div>
     <!-- Program Component Slider -->
-    <Slider/>
+    <Slider class=""/>
 
     <!--Our Milestones Title  -->
     <div class="bg-white h-[154px] relative">
