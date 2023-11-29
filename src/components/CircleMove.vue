@@ -27,7 +27,7 @@ const onMouseOver = () => {
     duration: 0.5,
     scaleX: 1,
     scaleY: 1,
-    x: 300, // Move right based on the direction
+    x: 330, // Move right based on the direction
   });
 };
 

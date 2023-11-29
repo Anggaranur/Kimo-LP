@@ -3,7 +3,7 @@
   import  Slider  from '@/components/SliderProgram.vue';
   import  SliderVideo  from '@/components/SliderVideo.vue';
   import  SliderNews  from '@/components/SliderNews.vue';
-  import CircleHeader from '@/components/CircleHeader.vue';
+  import CircleMove from '@/components/CircleMove.vue';
   import OnScroll from '@/components/OnScroll.vue';
 
   export default {
@@ -11,7 +11,7 @@
       Slider,
       SliderVideo,
       SliderNews,
-      CircleHeader,
+      CircleMove,
       OnScroll
     },
     }
@@ -30,10 +30,14 @@
     <!-- Header Content -->
     <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300">
      <!-- Circle Animation -->
-     <CircleHeader />
+     <CircleMove />
+     <h1 class="absolute z-30 w-[780px] h-[162px] font-Roboto font-[700] text-[40px] top-44 left-10 pointer-events-none">
+      Selamat datang di Kimo, pangkalan
+      rahasia bagi para pemberani yang siap menjelajahi dunia bahasa Inggris! 🌍✨
+    </h1>
 
       <!-- menu page scroll bounce -->
-      <div class="absolute bg-default top-[530px] h-[65px] w-[65px] rounded-full left-[700px] text-white animate-bounce shadow-2xl z-50 cursor-pointer" title="See News">
+      <div class="absolute bg-default top-[530px] h-[65px] w-[65px] rounded-full left-[700px] text-white animate-bounce shadow-2xl z-40 cursor-pointer" title="See News">
         <a href="#news" v-smooth-scroll="{ duration: 1000, offset: -50 }">
           <img src="@/assets/down-arrow.png">
         </a>
