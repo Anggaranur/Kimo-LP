@@ -3,14 +3,18 @@
   import  Slider  from '@/components/SliderProgram.vue';
   import  SliderVideo  from '@/components/SliderVideo.vue';
   import  SliderNews  from '@/components/SliderNews.vue';
+  import CircleHeader from '@/components/CircleHeader.vue';
+  import OnScroll from '@/components/OnScroll.vue';
 
   export default {
     components : {
-      Slider, 
+      Slider,
       SliderVideo,
-      SliderNews
+      SliderNews,
+      CircleHeader,
+      OnScroll
+    },
     }
-  }
 </script>
 
 <template>
@@ -25,12 +29,17 @@
     </nav>
     <!-- Header Content -->
     <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300">
-      <div class="absolute bg-default top-16 h-[418px] w-[441px] rounded-full left-5 text-white">
-        Lingkaran
+     <!-- Circle Animation -->
+     <CircleHeader />
+
+      <!-- menu page scroll bounce -->
+      <div class="absolute bg-default top-[530px] h-[65px] w-[65px] rounded-full left-[700px] text-white animate-bounce shadow-2xl z-50 cursor-pointer" title="See News">
+        <a href="#news" v-smooth-scroll="{ duration: 1000, offset: -50 }">
+          <img src="@/assets/down-arrow.png">
+        </a>
       </div>
-      <div class="absolute bg-default top-[530px] h-[65px] w-[65px] rounded-full left-[700px] text-white animate-bounce shadow-2xl z-10 cursor-pointer" title="See More">
-       <img src="@/assets/down-arrow.png" class="">
-      </div>
+
+      <!-- Logo Nav -->
       <div class=" absolute w-[497px] h-[578px] right-3 ">
         <img src="@/assets/kimo-header.png">
       </div>
@@ -38,17 +47,20 @@
   </header>
 
   <main class="h-[3000px]">
-    <!-- Our Program Title -->
-    <div class="bg-white h-52 w-full relative">
-      <h1 class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] absolute left-[300px] top-5">
-        Rasakan  Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!</h1>
-        <p class="font-Roboto text-center  absolute left-[300px] top-36 text-[20px]">
-          Bebas belajar bahasa inggris dimana aja dan kapan aja bareng  tutor terbaik  Kampung Inggris LC
-        </p>
+    <div>
+      <!-- On Scroll Animate belum done -->
+      <OnScroll/>
+        <!-- Our Program Title -->
+        <div class="bg-white h-52 w-full relative">
+          <h1 class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] absolute left-[300px] top-5">
+            Rasakan  Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!</h1>
+            <p class="font-Roboto text-center  absolute left-[300px] top-36 text-[20px]">
+              Bebas belajar bahasa inggris dimana aja dan kapan aja bareng  tutor terbaik  Kampung Inggris LC
+            </p>
+        </div>
+        <!-- Program Component Slider -->
+        <Slider/>
     </div>
-    <!-- Program Component Slider -->
-    <Slider class=""/>
-
     <!--Our Milestones Title  -->
     <div class="bg-white h-[154px] relative">
       <h1 class="font-Roboto font-bold text-[40px] absolute top-10 left-[600px]">
@@ -70,7 +82,7 @@
     <SliderVideo/>
 
     <!-- Berita Title -->
-    <div class="bg-white h-[200px] relative">
+    <div id="news" class="bg-white h-[150px] relative">
       <h1 class="font-Roboto font-bold text-[40px] absolute top-20 w-[682px] text-center left-[450px]">
         Berita Terbaru
       </h1>

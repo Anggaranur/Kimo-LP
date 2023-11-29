@@ -1,10 +1,12 @@
 <template>
   <div class="h-[635px] bg-[#EBEBEB]">
+
+    
+
     <vueper-slides
       class="no-shadow p-20 h-[461px] mx-auto"
       :visible-slides="4"
       slide-multiple 
-     
       :slide-ratio="1 / 3"
       :dragging-distance="200"
       :breakpoints="{ 1000: { visibleSlides: 2, slideMultiple: 2 } }">
@@ -12,8 +14,10 @@
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>
           <div
-            :class="['h-full w-[319px] mx-auto p-4 rounded-lg hover:shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90' ]"
+            :class="['h-full w-[319px] mx-auto p-4 rounded-lg hover:shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90 ' ]"
           >
+
+            
             <p class="text-center">{{ card.title }}</p>
             <p class="text-center">{{ card.content }}</p>
           </div>
