@@ -39,9 +39,9 @@
         </a>
       </div>
 
-      <!-- Logo Nav -->
-      <div class=" absolute w-[497px] h-[578px] right-3 ">
-        <img src="@/assets/kimo-header.png">
+      <!-- Logo Header -->
+      <div class=" absolute top-0  right-3 w-[820px] h-[546px]">
+        <img class="absolute h-[546px] right-2" src="@/assets/kimo-header.png">
       </div>
     </div>
   </header>

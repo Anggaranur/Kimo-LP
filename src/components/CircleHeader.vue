@@ -5,9 +5,12 @@
       @enter="onEnter"
       @leave="onLeave"
       :css="false">
-
-    <div class="gsap-box absolute bg-default top-16 h-[418px] w-[441px] rounded-full left-5 text-white">
-    </div>
+      <div class="gsap-box">
+        <div class="w-[520px] h-[546px]">
+          <div class="absolute bg-default top-16 h-[418px] w-[441px] rounded-full left-5 text-white shadow-2xl">
+          </div>
+        </div>
+      </div>
     </Transition>
   </div>
 </template>
@@ -21,7 +24,7 @@ const direction = ref(-1); // -1 for left, 1 for right
 const onMouseOver = () => {
   direction.value = 1; // Move to the right when hovered
   gsap.to('.gsap-box', {
-    duration: 1,
+    duration: 0.5,
     scaleX: 1,
     scaleY: 1,
     x: 300, // Move right based on the direction
@@ -31,7 +34,7 @@ const onMouseOver = () => {
 const onMouseLeave = () => {
   direction.value = -1; // Move back to the left when not hovered
   gsap.to('.gsap-box', {
-    duration: 1,
+    duration: 0.5,
     scaleX: 1,
     scaleY: 1,
     x:0,
