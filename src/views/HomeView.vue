@@ -4,7 +4,7 @@
   import  SliderVideo  from '@/components/SliderVideo.vue';
   import  SliderNews  from '@/components/SliderNews.vue';
   import CircleMove from '@/components/CircleMove.vue';
-  import OnScroll from '@/components/OnScroll.vue';
+  import ScrollAnimated from '@/components/ScrollAnimated.vue';
 
   export default {
     components : {
@@ -12,7 +12,7 @@
       SliderVideo,
       SliderNews,
       CircleMove,
-      OnScroll
+      ScrollAnimated
     },
     }
 </script>
@@ -53,7 +53,7 @@
   <main class="h-[3000px]">
     <div>
       <!-- On Scroll Animate belum done -->
-      <OnScroll/>
+      <ScrollAnimated/>
         <!-- Our Program Title -->
         <div class="bg-white h-52 w-full relative">
           <h1 class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] absolute left-[300px] top-5">
