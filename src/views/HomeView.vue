@@ -166,6 +166,15 @@
       <a href="https://www.tiktok.com/@kampunginggrislccom?is_from_webapp=1&sender_device=pc" target="_blank">
         <img class="absolute top-16 left-[890px] cursor-pointer" src="@/assets/logo-tt.svg"/>
       </a>
+      <!-- Text -->
+      <p class="text-[16px] text-white w-[240px] text-start font-[700] absolute top-32 left-[760px] leading-[24px]">
+        Jelajahi dunia bahasa Inggris bersama kami! Ikuti perjalanan belajar yang seru di media sosial kami. Kunjungi Sekarang!
+      </p>
+
+      <!-- Download Content -->
+      <h1 class="text-[16px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1100px]">
+        JOIN OUR ENGLISH COURSE!
+      </h1>
   </footer>
   
 </template>
