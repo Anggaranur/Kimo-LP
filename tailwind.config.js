@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'redButton': '#F6121C',
         'default' : '#FE9A03',
+        'textDefault' : '#F6121C'
       }
     },
   },
