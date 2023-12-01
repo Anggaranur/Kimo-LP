@@ -40,6 +40,7 @@
         <!-- Program Component Slider -->
         <Slider/>
     </div>
+
     <!--Our Milestones Title  -->
     <div class="bg-white h-[154px] relative">
       <h1 class="font-Roboto font-bold text-[40px] absolute top-10 left-[600px]">
@@ -81,5 +82,4 @@
 
   <!-- Footer -->
   <FooterSection/>
-  
 </template>
