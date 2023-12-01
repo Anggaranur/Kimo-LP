@@ -118,13 +118,10 @@
         <path d="M19.9031 12.7239C17.2684 12.7241 14.7417 13.7898 12.8787 15.6867C11.0156 17.5836 9.96893 20.1563 9.96875 22.8389V23.0769H0V43.3909H20.2125V32.9469C22.8232 32.8705 25.2993 31.7503 27.1048 29.8288C28.9103 27.9072 29.8998 25.3389 29.8591 22.68C29.8184 20.021 28.7508 17.4854 26.8875 15.622C25.0241 13.7586 22.5149 12.7174 19.9031 12.7239ZM3.4375 39.8909V26.5769H9.96875V32.9539H16.775V39.8909H3.4375ZM20.2125 29.4469C20.1094 29.4539 20.0063 29.4539 19.9031 29.4539H13.4062V22.8389C13.4063 21.544 13.7797 20.2776 14.48 19.1968C15.1803 18.1159 16.1768 17.2681 17.3459 16.7584C18.515 16.2487 19.8053 16.0996 21.0569 16.3296C22.3084 16.5595 23.4662 17.1584 24.3866 18.052C25.307 18.9456 25.9496 20.0946 26.2347 21.3565C26.5197 22.6184 26.4348 23.9378 25.9904 25.1511C25.546 26.3643 24.7616 27.4181 23.7345 28.1817C22.7074 28.9453 21.4828 29.3852 20.2125 29.4469Z" fill="#F6121C"/>
       </svg>
       <p class="w-[261px] absolute text-white text-start text-[16px] font[400] left-[108px] top-32">
-        Kimo for Students: Pantau jadwal, materi, dan progres kursus dengan mudah di LC Kampung Inggris Pare. Sukses belajar!
+        Kimo for Students memudahkan pelajar di LC Kampung Inggris Pare dengan pemantauan jadwal, akses materi, dan pelacakan progres. Sukses belajar lebih terjangkau dan terstruktur dengan Kimo for Students. Selamat belajar dan capai prestasi optimal!
       </p>
-      <p class="text-[16px] absolute top-[270px] text-white left-[108px] font-[400]">
-        Copyright  LC Kampung Inggris Pare
-      </p>
-      <a class="text-[#08A0F7] absolute top-[300px] left-[108px]" href="https://www.kampunginggris.id/" target="_blank">
-        https://www.kampunginggris.id/
+      <a class="text-[#08A0F7] absolute top-[370px] left-[108px]" href="https://www.kampunginggris.id/" target="_blank">
+        LC Kampung Inggris : <span class="text-white underline">https://www.kampunginggris.id/</span>
       </a>
 
       <!--Contact Content-->
@@ -152,7 +149,7 @@
       <p class="text-white font-[16px] leading-[24px] absolute top-[290px] left-[490px]">
         +6281231250390
       </p>
-
+      ``
       <!-- Social Media Content -->
       <!-- Instagram -->
       <a href="https://www.instagram.com/kampunginggrislc/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg==" target="_blank">
@@ -167,13 +164,13 @@
         <img class="absolute top-16 left-[890px] cursor-pointer" src="@/assets/logo-tt.svg"/>
       </a>
       <!-- Text -->
-      <p class="text-[16px] text-white w-[240px] text-start font-[700] absolute top-32 left-[760px] leading-[24px]">
-        Jelajahi dunia bahasa Inggris bersama kami! Ikuti perjalanan belajar yang seru di media sosial kami. Kunjungi Sekarang!
+      <p class="text-[16px] text-white w-[240px] text-start font-[400] absolute top-32 left-[760px] leading-[24px]">
+        Ikuti perjalanan belajar bahasa Inggris seru di media sosial kami. Temukan inspirasi dan tips menarik. Bergabung sekarang untuk pengalaman pembelajaran yang menyenangkan!
       </p>
 
       <!-- Download Content -->
-      <h1 class="text-[16px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1100px]">
-        JOIN OUR ENGLISH COURSE!
+      <h1 class="text-[16px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1150px]">
+        Download and Join Now!
       </h1>
   </footer>
   
