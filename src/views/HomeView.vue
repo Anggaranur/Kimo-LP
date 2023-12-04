@@ -49,7 +49,45 @@
     </div>
     <!-- Our Milestones -->
     <div class="bg-default h-[373px] relative">
+      <!-- Image Left -->
       <img class="w-[353px] h-[345px] absolute left-10" src="@/assets/milestones.png">
+      <!-- Content Left -->
+
+      <!-- Text  1 -->
+      <img class="absolute left-[500px] top-[51px]" src="@/assets/logo-people-arrow.svg"/>
+      <p class="text-[25px] font-[500] absolute left-[530px] top-[42px]">
+        Memiliki 47.449+ alumni
+      </p>
+
+      <!-- Text 2 -->
+      <img class=" absolute left-[500px] top-[100px]" src="@/assets/logo-computer.svg" />
+      <p class="text-[25px] font-[500] absolute left-[530px] top-[90px]">
+        Memiliki program kelas online tatap muka
+      </p>
+
+      <!-- Text 3 -->
+      <img class="absolute left-[500px] top-[150px]" src="@/assets/logo-teacher-chalkboard.svg"/>
+      <p class="text-[25px] font-[500] absolute left-[530px] top-[140px]">
+        Memiliki 143 tutor
+      </p>
+
+      <!-- Text 4 -->
+      <img class="absolute left-[500px] top-[200px]" src="@/assets/logo-youtube.svg"/>
+      <p class="text-[25px] font-[500] absolute left-[530px] top-[187px]">
+        Memiliki 1,7 juta subscribers YouTube
+      </p>
+
+      <!-- Text 5 -->
+      <img class="absolute left-[500px] top-[250px]" src="@/assets/logo-instagram.svg"/>
+      <p class="text-[25px] font-[500] absolute left-[530px] top-[240px]">
+        Memiliki 1,1 juta followers Instagram
+      </p>
+
+      <!-- Text 6 -->
+      <img class="absolute left-[500px] top-[300px]" src="@/assets/logo-tiktok.svg"/>
+      <p class="text-[25px] font-[500] absolute left-[530px] top-[290px]">
+        Memiliki 700 ribu followers Tiktok
+      </p>
     </div>
 
     <!-- Learning Video Title -->

@@ -60,9 +60,10 @@
       </p>
 
       <!-- Download Content -->
-      <h1 class="text-[16px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1150px]">
+      <h1 class="text-[16px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1200px]">
         Download and Join Now!
       </h1>
+      
       
   </footer>
 </template>
