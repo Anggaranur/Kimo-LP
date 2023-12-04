@@ -1,5 +1,6 @@
 <template>
   <footer class="bg-black h-[416px] w-full mt-[500px] text-center relative">
+
     <!-- Text Left Content -->
       <h1 class=" text-[16px] text-textDefault font-[700] absolute top-20 left-20 w-[219px]">
         KIMO FOR STUDENTS
@@ -62,5 +63,6 @@
       <h1 class="text-[16px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1150px]">
         Download and Join Now!
       </h1>
+      
   </footer>
 </template>
