@@ -41,7 +41,7 @@ export default {
       cards: [
         { title: 'Peluncuran English Immersion', content: 'Peserta didik kami membanggakan sekolah dengan meraih kemenangan dalam kompetisi bahasa Inggris tingkat nasional.', background: 'bg-news', image : 'src/assets/contoh.png' },
         { title: 'LC Juarai Kompetisi Nasional' , content: 'Prestasi luar biasa dari peserta didik LC Kampung Inggris yang meraih gelar juara dalam kompetisi bahasa Inggris nasional. ', background: 'bg-news', image : 'src/assets/contoh2.png' },
-        { title: 'News 3', content: 'Content for News 3', background: 'bg-news' },
+        { title: 'Hari Bahasa Inggris', content: 'Siswa LC Kampung Inggris merayakan Hari Bahasa Inggris Sedunia dengan antusias', background: 'bg-news', image: 'src/assets/contoh3.png' },
         { title: 'News 4', content: 'Content for News 4', background: 'bg-news' },
         { title: 'News 5', content: 'Content for News 5', background: 'bg-news' },
         { title: 'News 6', content: 'Content for News 6', background: 'bg-news' },
