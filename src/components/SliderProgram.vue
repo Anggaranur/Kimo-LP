@@ -40,7 +40,7 @@ export default {
         { title: 'Kelas Kondusif', content: 'Biar suasana kelasnya kondusif, LC membatasi jumlah siswa dalam satu kelas maksimal 16 orang aja.', background: 'bg-white', image: 'src/assets/our5.png' },
         { title: 'More than Just Learning', content: 'Nggak cuma bantu ningkatin skill bahasa Inggris, tapi LC juga bakal bantu kamu jadi pribadi yang berkarakter.', background: 'bg-white', image: 'src/assets/our6.png' },
         { title: 'Fleksibilitas Jadwal Belajar', content: 'LC memberikan fleksibilitas jadwal belajar, memungkinkanmu untuk menyesuaikan waktu belajar sesuai kebutuhanmu.', background: 'bg-white', image: 'src/assets/our7.png' },
-        { title: 'Komunitas Aktif dan Beragam', content: 'Raih peluang untuk terlibat dalam beragam kegiatan dan bergabung dengan komunitas aktif, sehingga kamu dapat terus mempraktikkan bahasa Inggris dalam situasi nyata.', background: 'bg-white', image: 'src/assets/our8.png' },
+        { title: 'Komunitas Aktif dan Beragam', content: 'Raih peluang untuk terlibat dalam beragam kegiatan dan bergabung dengan komunitas aktif, sehingga kamu dapat terus mempraktikkan bahasa Inggris dalam situasi nyata.', background: 'bg-white', image: 'src/assets/our8.png' }, 
       ],
     };
   },
