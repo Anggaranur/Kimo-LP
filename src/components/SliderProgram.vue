@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[635px] bg-[#EBEBEB]">
+  <div class="h-[635px] bg-[#ebebebd0]">
     <vueper-slides
       class="no-shadow p-20 h-[461px] mx-auto"
       :visible-slides="4"
@@ -11,12 +11,12 @@
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>
           <div
-            :class="['h-full w-[319px] mx-auto p-4 rounded-lg hover:shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90 relative ' ]"
+            :class="['h-full w-[319px] mx-auto p-4 rounded-lg shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90 relative ' ]"
           >
             <!-- Content -->
-            <img :src="card.image" alt="Card image" class="w-full h-auto" />
-            <p class="text-center">{{ card.title }}</p>
-            <p class="text-center">{{ card.content }}</p>
+            <img :src="card.image" alt="Card image" class="w-[287px] h-[287px] rounded-lg" />
+            <p class="text-center text-[20px] font-[700] ">{{ card.title }}</p>
+            <p class="text-center font-[400] text-[13px]">{{ card.content }}</p>
           </div>
         </template>
       </vueper-slide>
@@ -33,14 +33,14 @@ export default {
   data() {
     return {
       cards: [
-        { title: 'Card 1', content: 'Content for Card 1', background: 'bg-red-400', image: 'src/assets/logo-tiktok.svg' },
-        { title: 'Card 2', content: 'Content for Card 2', background: 'bg-blue-500', image: './assets/card2.jpg' },
-        { title: 'Card 3', content: 'Content for Card 3', background: 'bg-green-500', image: './assets/card3.jpg' },
-        { title: 'Card 4', content: 'Content for Card 4', background: 'bg-purple-500', image: './assets/card4.jpg' },
-        { title: 'Card 5', content: 'Content for Card 5', background: 'bg-pink-500', image: './assets/card5.jpg' },
-        { title: 'Card 6', content: 'Content for Card 6', background: 'bg-orange-500', image: './assets/card6.jpg' },
-        { title: 'Card 7', content: 'Content for Card 7', background: 'bg-yellow-500', image: './assets/card7.jpg' },
-        { title: 'Card 8', content: 'Content for Card 8', background: 'bg-blue-900', image: './assets/card8.jpg' },
+        { title: 'Metode Terbukti Efektif', content: 'Skill bahasa Inggris meningkat pesat dengan paket pembelajaran yang lengkap dan didukung dengan lingkungan English area.', background: 'bg-white', image: 'src/assets/our1.png' },
+        { title: 'Lingkungan Mendukung', content: 'Kamu bakal diwajibkan berkomunasi dengan bahasa Inggris biar kepedeananmu meningkat.', background: 'bg-white', image: 'src/assets/our2.png' },
+        { title: 'Tutor Berpengalaman', content: 'Dengan sistem seleksi yang ketat, LC menghadirkan tutor yang kompeten dan berpengalaman mengajar di Kampung Inggris selama bertahun-tahun.', background: 'bg-white', image: 'src/assets/our3.png' },
+        { title: 'Pembawaan Materi Fun', content: 'Materi bisa lebih gampang diterima dan dimengerti dengan metode pembawaan materi yang seru dan menyenangkan.', background: 'bg-white', image: 'src/assets/our4.png' },
+        { title: 'Kelas Kondusif', content: 'Biar suasana kelasnya kondusif, LC membatasi jumlah siswa dalam satu kelas maksimal 16 orang aja.', background: 'bg-white', image: 'src/assets/our5.png' },
+        { title: 'More than Just Learning', content: 'Nggak cuma bantu ningkatin skill bahasa Inggris, tapi LC juga bakal bantu kamu jadi pribadi yang berkarakter.', background: 'bg-white', image: 'src/assets/our6.png' },
+        { title: 'Fleksibilitas Jadwal Belajar', content: 'LC memberikan fleksibilitas jadwal belajar, memungkinkanmu untuk menyesuaikan waktu belajar sesuai kebutuhanmu.', background: 'bg-white', image: 'src/assets/our7.png' },
+        { title: 'Komunitas Aktif dan Beragam', content: 'Raih peluang untuk terlibat dalam beragam kegiatan dan bergabung dengan komunitas aktif, sehingga kamu dapat terus mempraktikkan bahasa Inggris dalam situasi nyata.', background: 'bg-white', image: 'src/assets/our8.png' },
       ],
     };
   },
