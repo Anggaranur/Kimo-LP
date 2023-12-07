@@ -97,7 +97,7 @@
       </h1>
     </div>
     <!-- Learning Video -->
-    <SliderVideo/>9
+    <SliderVideo/>
 
     <!-- Berita Title -->
     <div id="news" class="bg-white h-[150px] relative">

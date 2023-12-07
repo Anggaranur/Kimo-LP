@@ -12,14 +12,20 @@
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>
           <div
-            :class="['h-full w-[319px] mx-auto p-4 rounded-lg hover:shadow-xl duration-500', card.background,
-            'transition-transform transform hover:scale-90']">
-            <p class="text-center text-white">{{ card.title }}</p>
-            <p class="text-center text-white">{{ card.content }}</p>
+            :class="['h-full w-[319px] mx-auto rounded-lg hover:shadow-xl duration-500', card.background,
+            'transition-transform transform hover:scale-90 relative']">
+              <!-- Card Image -->
+            <img :src="card.image" alt="Card image" class="w-full h-[289px] rounded-lg p-2" />
+              <!--Text Content-->
+            <p class="text-center text-white text-[20px] font-[800]">{{ card.title }}</p>
+            <p class="text-center text-white text-[15px] font-[400] p-1">{{ card.content }}</p>
+            <!-- Button -->
+            <button class="bg-[#F6121C] w-[118px] h-[43px] rounded-sm text-white font-[700] text-[15px] absolute left-24 bottom-3">
+              Baca Detail
+            </button>
           </div>
         </template>
       </vueper-slide>
-
     </vueper-slides>
   </div>
 </template>
@@ -33,14 +39,14 @@ export default {
   data() {
     return {
       cards: [
-        { title: 'News 1', content: 'Content for News 1', background: 'bg-black' },
-        { title: 'News 2', content: 'Content for News 2', background: 'bg-black' },
-        { title: 'News 3', content: 'Content for News 3', background: 'bg-black' },
-        { title: 'News 4', content: 'Content for News 4', background: 'bg-black' },
-        { title: 'News 5', content: 'Content for News 5', background: 'bg-black' },
-        { title: 'News 6', content: 'Content for News 6', background: 'bg-black' },
-        { title: 'News 7', content: 'Content for News 7', background: 'bg-black' },
-        { title: 'News 8', content: 'Content for News 8', background: 'bg-black' },
+        { title: 'Peluncuran English Immersion', content: 'Peserta didik kami membanggakan sekolah dengan meraih kemenangan dalam kompetisi bahasa Inggris tingkat nasional.', background: 'bg-news', image : 'src/assets/contoh.png' },
+        { title: 'LC Juarai Kompetisi Nasional' , content: 'Prestasi luar biasa dari peserta didik LC Kampung Inggris yang meraih gelar juara dalam kompetisi bahasa Inggris nasional. ', background: 'bg-news', image : 'src/assets/contoh2.png' },
+        { title: 'News 3', content: 'Content for News 3', background: 'bg-news' },
+        { title: 'News 4', content: 'Content for News 4', background: 'bg-news' },
+        { title: 'News 5', content: 'Content for News 5', background: 'bg-news' },
+        { title: 'News 6', content: 'Content for News 6', background: 'bg-news' },
+        { title: 'News 7', content: 'Content for News 7', background: 'bg-news' },
+        { title: 'News 8', content: 'Content for News 8', background: 'bg-news' },
       ],
     };
   },
