@@ -3,10 +3,13 @@
     <!-- NavBar -->
     <nav class="bg-white h-[77px] fixed w-full z-50 shadow-xl">
       <img class="h-[77px] w-[212px]" src="@/assets/logo-kimo-nav.png"/>
-      <button class="absolute top-3.5 right-5 bg-redButton p-3 text-white font-Roboto 
-      font-bold rounded-md hover:opacity-70 hover:shadow-md duration-300 active:opacity-100">
-        DOWNLOAD SEKARANG!
-      </button>
+      <!-- Button Dowmload -->
+      <a href="#download" v-smooth-scroll="{ duration: 1000, offset: -50 }">
+        <button class="absolute top-3.5 right-5 bg-redButton p-3 text-white font-Roboto 
+        font-bold rounded-md hover:shadow-md duration-300 active:opacity-60 transition-transform transform hover:scale-110">
+          DOWNLOAD SEKARANG!
+        </button>
+      </a>
     </nav>
 
     <!-- Header Content -->
@@ -14,8 +17,7 @@
       <!-- Circle Animation -->
       <CircleMove />
       <h1 class="absolute z-30 max-w-[780px] h-[162px] font-Roboto font-[700] text-[40px] top-44 left-10 pointer-events-none flex">
-        Selamat datang di Kimo, pangkalan
-        rahasia bagi para pemberani yang siap menjelajahi dunia bahasa Inggris! 🌍✨
+        Selamat datang di Kimo, pangkalan rahasia bagi para pemberani yang siap menjelajahi dunia bahasa Inggris! 🌍✨
       </h1>
 
       <!-- menu page scroll bounce -->

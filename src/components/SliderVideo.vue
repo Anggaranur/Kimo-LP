@@ -49,7 +49,7 @@ export default {
   data() {
     return {
       cards: [
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video: 'https://www.youtube.com/embed/TKFGJATIJ_U?si=N3yCHvEhnkdbpSoc' },
+        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video: 'https://www.youtube.com/embed/8W7x_-mMOtU?si=2f8tIWOOI11riT1H' },
         { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning' , video: 'https://www.youtube.com/embed/WO23Sl2t2OM?si=9IVppVsYewIb3MyQ' },
         { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video : 'https://www.youtube.com/embed/jhQFUBkfAVY?si=n41JKYgzSygx1U3b' },
         { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video : 'https://www.youtube.com/embed/o-qGwAKNfT4?si=7t8G7yS6P1NoTBdh' },

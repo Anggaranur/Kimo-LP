@@ -44,25 +44,37 @@
       <!-- Social Media Content -->
       <!-- Instagram -->
       <a href="https://www.instagram.com/kampunginggrislc/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg==" target="_blank">
-        <img class="w-[41px] h-[41px] absolute top-16 left-[760px] cursor-pointer" src="@/assets/logo-ig.svg"/>
+        <img class="w-[41px] h-[41px] absolute top-20 left-[760px] cursor-pointer transition-transform transform hover:scale-110" src="@/assets/logo-ig.svg"/>
       </a>
       <!-- Youtube -->
       <a href="https://www.youtube.com/@kampunginggrislc" target="_blank">
-        <img class="absolute top-[70px] left-[820px] cursor-pointer" src="@/assets/logo-yt.svg"/>
+        <img class="absolute top-[85px] left-[820px] cursor-pointer transition-transform transform hover:scale-110" src="@/assets/logo-yt.svg"/>
       </a>
       <!-- Tiktok -->
       <a href="https://www.tiktok.com/@kampunginggrislccom?is_from_webapp=1&sender_device=pc" target="_blank">
-        <img class="absolute top-16 left-[890px] cursor-pointer" src="@/assets/logo-tt.svg"/>
+        <img class="absolute top-20 left-[890px] cursor-pointer transition-transform transform hover:scale-110" src="@/assets/logo-tt.svg"/>
       </a>
       <!-- Text -->
-      <p class="text-[16px] text-white w-[240px] text-start font-[400] absolute top-32 left-[760px] leading-[24px]">
+      <p class="text-[16px] text-white w-[240px] text-start font-[400] absolute top-36 left-[760px] leading-[24px]">
         Ikuti perjalanan belajar bahasa Inggris seru di media sosial kami. Temukan inspirasi dan tips menarik. Bergabung sekarang untuk pengalaman pembelajaran yang menyenangkan!
       </p>
 
       <!-- Download Content -->
-      <h1 class="text-[16px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1200px]">
+      <h1 id="download" class="text-[20px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1150px]">
         Download and Join Now!
       </h1>
+
+      <div class="bg-white absolute top-[140px] left-[1155.8px] h-46 w-[230px] rounded-lg  duration-300 flex flex-col items-center">
+        <!-- Button Downlaod  Playstore-->
+        <a class="pt-8" href="https://play.google.com/store/apps/details?id=com.kampunginggris.lc_member&pcampaignid=web_share" target="_blank">
+            <img src="@/assets/playstore.png" class="h-12 w-30 cursor-pointer active:opacity-50 duration-300 transition-transform transform hover:scale-110" title="Download for Android Now!"/>
+        </a>
+        <!-- Button Downlaod  Playstore-->
+        <a class="pt-8 pb-8" href="https://apps.apple.com/id/app/kimo-by-language-center/id6465176169" target="_blank">
+          <img src="@/assets/appstore.png" class="h-12 w-30 cursor-pointer active:opacity-50 duration-300 transition-transform transform hover:scale-110" title="Download for IOS Now!"/>
+        </a>
+      </div>
+     
       
       
   </footer>

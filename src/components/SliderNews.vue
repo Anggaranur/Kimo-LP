@@ -20,7 +20,7 @@
             <p class="text-center text-white text-[20px] font-[800]">{{ card.title }}</p>
             <p class="text-center text-white text-[15px] font-[400] p-1">{{ card.content }}</p>
             <!-- Button -->
-            <button class="bg-[#F6121C] w-[118px] h-[43px] rounded-sm text-white font-[700] text-[15px] absolute left-24 bottom-3">
+            <button class="bg-[#F6121C] w-[118px] h-[43px] rounded-sm text-white font-[700] text-[15px] absolute left-24 bottom-3  transition-opacity hover:opacity-90 active:opacity-60">
               Baca Detail
             </button>
           </div>
@@ -42,11 +42,11 @@ export default {
         { title: 'Peluncuran English Immersion', content: 'Peserta didik kami membanggakan sekolah dengan meraih kemenangan dalam kompetisi bahasa Inggris tingkat nasional.', background: 'bg-news', image : 'src/assets/contoh.png' },
         { title: 'LC Juarai Kompetisi Nasional' , content: 'Prestasi luar biasa dari peserta didik LC Kampung Inggris yang meraih gelar juara dalam kompetisi bahasa Inggris nasional. ', background: 'bg-news', image : 'src/assets/contoh2.png' },
         { title: 'Hari Bahasa Inggris', content: 'Siswa LC Kampung Inggris merayakan Hari Bahasa Inggris Sedunia dengan antusias', background: 'bg-news', image: 'src/assets/contoh3.png' },
-        { title: 'News 4', content: 'Content for News 4', background: 'bg-news' },
-        { title: 'News 5', content: 'Content for News 5', background: 'bg-news' },
-        { title: 'News 6', content: 'Content for News 6', background: 'bg-news' },
-        { title: 'News 7', content: 'Content for News 7', background: 'bg-news' },
-        { title: 'News 8', content: 'Content for News 8', background: 'bg-news' },
+        { title: 'Program Baru', content: 'Kami dengan bangga memperkenalkan program terbaru, "English Immersion"', background: 'bg-news', image : 'src/assets//contoh4.jpg' },
+        { title: 'Peluncuran English Immersion', content: 'Peserta didik kami membanggakan sekolah dengan meraih kemenangan dalam kompetisi bahasa Inggris tingkat nasional.', background: 'bg-news', image : 'src/assets/contoh.png' },
+        { title: 'LC Juarai Kompetisi Nasional' , content: 'Prestasi luar biasa dari peserta didik LC Kampung Inggris yang meraih gelar juara dalam kompetisi bahasa Inggris nasional. ', background: 'bg-news', image : 'src/assets/contoh2.png' },
+        { title: 'Hari Bahasa Inggris', content: 'Siswa LC Kampung Inggris merayakan Hari Bahasa Inggris Sedunia dengan antusias', background: 'bg-news', image: 'src/assets/contoh3.png' },
+        { title: 'Program Baru', content: 'Kami dengan bangga memperkenalkan program terbaru, "English Immersion"', background: 'bg-news', image : 'src/assets//contoh4.jpg' },
       ],
     };
   },
