@@ -19,6 +19,7 @@
     }
 </script>
 
+<!--Main Content  -->
 <template class="font-Roboto">
   <!-- Header -->
   <HeaderSection/>
@@ -121,3 +122,4 @@
   <!-- Footer -->
   <FooterSection/>
 </template>
+<!-- End Main Content -->
