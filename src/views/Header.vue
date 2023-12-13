@@ -6,7 +6,7 @@
       <!-- Button Dowmload -->
       <a href="#download" v-smooth-scroll="{ duration: 1000, offset: -50 }">
         <button class="absolute top-3.5 right-5 bg-redButton p-3 text-white font-Roboto 
-        font-bold rounded-md hover:shadow-md duration-300 active:opacity-60 transition-transform transform hover:scale-110">
+        font-bold rounded-md hover:shadow-md duration-300 active:opacity-60 transition-transform transform hover:scale-110" title="Download Apps">
           DOWNLOAD SEKARANG!
         </button>
       </a>
