@@ -53,7 +53,6 @@ export default {
   methods : {
      getImagePath(image) {
        return new URL(`../assets/${image}`, import.meta.url).href;
-      //  return `../../assets/${image}.png`;
     },
   }
 };
