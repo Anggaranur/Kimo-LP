@@ -15,7 +15,7 @@
             :class="['h-full w-[319px] mx-auto rounded-lg hover:shadow-xl duration-500', card.background,
             'transition-transform transform hover:scale-90 relative']">
               <!-- Card Image -->
-            <img :src="card.image" alt="Card image" class="w-full h-[289px] rounded-lg p-2" />
+            <img :src="getImagePath(card.image)" alt="Card image" class="w-full h-[289px] rounded-lg p-2" />
               <!--Text Content-->
             <p class="text-center text-white text-[20px] font-[800]">{{ card.title }}</p>
             <p class="text-center text-white text-[15px] font-[400] p-1">{{ card.content }}</p>
@@ -39,16 +39,22 @@ export default {
   data() {
     return {
       cards: [
-        { title: 'Peluncuran English Immersion', content: 'Peserta didik kami membanggakan sekolah dengan meraih kemenangan dalam kompetisi bahasa Inggris tingkat nasional.', background: 'bg-news', image : 'src/assets/contoh.png' },
-        { title: 'LC Juarai Kompetisi Nasional' , content: 'Prestasi luar biasa dari peserta didik LC Kampung Inggris yang meraih gelar juara dalam kompetisi bahasa Inggris nasional. ', background: 'bg-news', image : 'src/assets/contoh2.png' },
-        { title: 'Hari Bahasa Inggris', content: 'Siswa LC Kampung Inggris merayakan Hari Bahasa Inggris Sedunia dengan antusias', background: 'bg-news', image: 'src/assets/contoh3.png' },
-        { title: 'Program Baru', content: 'Kami dengan bangga memperkenalkan program terbaru, "English Immersion"', background: 'bg-news', image : 'src/assets//contoh4.jpg' },
-        { title: 'Peluncuran English Immersion', content: 'Peserta didik kami membanggakan sekolah dengan meraih kemenangan dalam kompetisi bahasa Inggris tingkat nasional.', background: 'bg-news', image : 'src/assets/contoh.png' },
-        { title: 'LC Juarai Kompetisi Nasional' , content: 'Prestasi luar biasa dari peserta didik LC Kampung Inggris yang meraih gelar juara dalam kompetisi bahasa Inggris nasional. ', background: 'bg-news', image : 'src/assets/contoh2.png' },
-        { title: 'Hari Bahasa Inggris', content: 'Siswa LC Kampung Inggris merayakan Hari Bahasa Inggris Sedunia dengan antusias', background: 'bg-news', image: 'src/assets/contoh3.png' },
-        { title: 'Program Baru', content: 'Kami dengan bangga memperkenalkan program terbaru, "English Immersion"', background: 'bg-news', image : 'src/assets//contoh4.jpg' },
+        { title: 'Peluncuran English Immersion', content: 'Peserta didik kami membanggakan sekolah dengan meraih kemenangan dalam kompetisi bahasa Inggris tingkat nasional.', background: 'bg-news', image : 'contoh.png' },
+        { title: 'LC Juarai Kompetisi Nasional' , content: 'Prestasi luar biasa dari peserta didik LC Kampung Inggris yang meraih gelar juara dalam kompetisi bahasa Inggris nasional. ', background: 'bg-news', image : 'contoh2.png' },
+        { title: 'Hari Bahasa Inggris', content: 'Siswa LC Kampung Inggris merayakan Hari Bahasa Inggris Sedunia dengan antusias', background: 'bg-news', image: 'contoh3.png' },
+        { title: 'Program Baru', content: 'Kami dengan bangga memperkenalkan program terbaru, "English Immersion"', background: 'bg-news', image : 'contoh4.jpg' },
+        { title: 'Peluncuran English Immersion', content: 'Peserta didik kami membanggakan sekolah dengan meraih kemenangan dalam kompetisi bahasa Inggris tingkat nasional.', background: 'bg-news', image : 'contoh.png' },
+        { title: 'LC Juarai Kompetisi Nasional' , content: 'Prestasi luar biasa dari peserta didik LC Kampung Inggris yang meraih gelar juara dalam kompetisi bahasa Inggris nasional. ', background: 'bg-news', image : 'contoh2.png' },
+        { title: 'Hari Bahasa Inggris', content: 'Siswa LC Kampung Inggris merayakan Hari Bahasa Inggris Sedunia dengan antusias', background: 'bg-news', image: 'contoh3.png' },
+        { title: 'Program Baru', content: 'Kami dengan bangga memperkenalkan program terbaru, "English Immersion"', background: 'bg-news', image : 'contoh4.jpg' },
       ],
     };
   },
+  methods : {
+     getImagePath(image) {
+       return new URL(`../assets/${image}`, import.meta.url).href;
+      //  return `../../assets/${image}.png`;
+    },
+  }
 };
 </script>
