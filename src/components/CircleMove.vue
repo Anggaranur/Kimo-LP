@@ -7,7 +7,7 @@
       :css="false">
       <div class="gsap-box">
         <div class="w-[520px] h-[546px]">
-          <div class="absolute bg-default top-16 h-[418px] w-[441px] rounded-full left-5 text-white shadow-2xl max-md:h-[800px] max-md:w-[800px]">
+          <div class="absolute bg-default top-16 h-[418px] w-[441px] rounded-full left-5 text-white shadow-2xl max-md:h-[820px] max-md:w-[820px]">
           </div>
         </div>
       </div>

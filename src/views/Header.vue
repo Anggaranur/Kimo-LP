@@ -16,8 +16,8 @@
     <!-- Header Content -->
     <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300 max-md:top-[400px] max-md:h-[2305px]">
       <!-- Circle Animation -->
-      <CircleMove class="absolute max-md:top-[1300px] max-md:left-[100px]" />
-      <h1 class="absolute z-30 max-w-[780px] h-[162px] font-Roboto font-[700] text-[40px] top-44 left-10 pointer-events-none max-md:text-[55px] max-md:top-[1500px]">
+      <CircleMove class="absolute max-md:top-[1200px]" />
+      <h1 class="absolute z-30 max-w-[780px] h-[162px] font-Roboto font-[700] text-[40px] top-44 left-10 pointer-events-none max-md:text-[80px] max-md:top-[1420px] max-md:max-w-[1300px] max-md:left-20">
         Selamat datang di Kimo, pangkalan rahasia bagi para pemberani yang siap menjelajahi dunia bahasa Inggris! 🌍✨
       </h1>
 
