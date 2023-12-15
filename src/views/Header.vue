@@ -1,11 +1,11 @@
 <template>
- <header class="bg-default h-[708px] max-xl:w-[1500px] max-md:h-[2805px] relative">
+ <header class="bg-default h-[708px] max-xl:w-[1550px] max-md:h-[2805px] relative">
     <!-- NavBar -->
-    <nav class="bg-white h-[77px] fixed w-full z-50 shadow-xl max-md:h-[300px]">
+    <nav class="bg-white h-[77px] w-full fixed  z-50 shadow-xl max-md:h-[300px] max-xl:w-[1550px]">
       <img class="h-[77px] w-[212px] absolute max-md:w-[600px] max-md:h-[230px] max-md:top-10" src="@/assets/logo-kimo-nav.png"/>
       <!-- Button Dowmload -->
       <a href="#download" v-smooth-scroll="{ duration: 1000, offset: -50 }">
-        <button class="absolute top-3.5 right-5 bg-redButton p-3 text-white font-Roboto 
+        <button class="absolute top-3.5 right-5 bg-redButton p-3 mr-5 text-white font-Roboto 
         font-bold rounded-md hover:shadow-md duration-300 active:opacity-60 transition-transform transform hover:scale-110
         max-md:p-14 max-md:text-[45px] max-md:top-14" title="Download Apps">
           DOWNLOAD SEKARANG!
@@ -17,7 +17,8 @@
     <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300 max-md:top-[400px] max-md:h-[2305px]">
       <!-- Circle Animation -->
       <CircleMove class="absolute max-md:top-[1200px]" />
-      <h1 class="absolute z-30 max-w-[780px] h-[162px] font-Roboto font-[700] text-[40px] top-44 left-10 pointer-events-none max-md:text-[80px] max-md:top-[1420px] max-md:max-w-[1300px] max-md:left-20">
+      <h1 class="absolute z-30 max-w-[780px] h-[162px] font-Roboto font-[700] text-[40px] top-44 left-10 pointer-events-none max-md:text-[80px] 
+      max-md:top-[1420px] max-md:max-w-[1300px] max-md:left-20">
         Selamat datang di Kimo, pangkalan rahasia bagi para pemberani yang siap menjelajahi dunia bahasa Inggris! 🌍✨
       </h1>
 
