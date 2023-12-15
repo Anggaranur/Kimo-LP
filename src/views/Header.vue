@@ -2,12 +2,12 @@
  <header class="bg-default h-[708px] max-xl:w-[1500px] max-md:h-[2805px] relative">
     <!-- NavBar -->
     <nav class="bg-white h-[77px] fixed w-full z-50 shadow-xl max-md:h-[300px]">
-      <img class="h-[77px] w-[212px] absolute max-md:w-[390px] max-md:h-[140px] max-md:top-5" src="@/assets/logo-kimo-nav.png"/>
+      <img class="h-[77px] w-[212px] absolute max-md:w-[600px] max-md:h-[230px] max-md:top-10" src="@/assets/logo-kimo-nav.png"/>
       <!-- Button Dowmload -->
       <a href="#download" v-smooth-scroll="{ duration: 1000, offset: -50 }">
         <button class="absolute top-3.5 right-5 bg-redButton p-3 text-white font-Roboto 
         font-bold rounded-md hover:shadow-md duration-300 active:opacity-60 transition-transform transform hover:scale-110
-        max-md:p-10 max-md:text-2xl max-md:top-8" title="Download Apps">
+        max-md:p-14 max-md:text-[45px] max-md:top-14" title="Download Apps">
           DOWNLOAD SEKARANG!
         </button>
       </a>
