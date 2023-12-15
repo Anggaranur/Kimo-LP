@@ -35,12 +35,12 @@
           <h1 class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] absolute left-[300px] pt-16 max-xl:left-[350px] max-md:text-[60px] max-md:max-w-[1200px]">
             Rasakan  Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!
           </h1>
-            <p class="font-Roboto text-center absolute left-[330px] top-[220px] text-[30px] max-xl:w-[900px] max-xl:left-[350px] max-md:text-[45px] max-md:max-w-[900px] max-md:pt-[50px]">
+            <p class="font-Roboto text-center absolute left-[330px] top-[220px] text-[30px] max-xl:w-[900px] max-xl:left-[350px] max-md:text-[45px] max-md:max-w-[900px] max-md:pt-[130px]">
               Bebas belajar bahasa inggris dimana aja dan kapan aja bareng  tutor terbaik  Kampung Inggris LC
             </p>
         </div>
         <!-- Program Component Slider -->
-        <Slider class="mt-[200px]"/>
+        <Slider class="mt-[420px]"/>
     </div>
 
     <!--Our Milestones Title  -->
