@@ -1,7 +1,7 @@
 <template>
- <header class="bg-default h-[708px] max-xl:w-[1550px] max-md:h-[2900px] relative">
+ <header class="bg-default h-[708px] max-xl:w-[1555px] max-md:h-[2905px] relative">
     <!-- NavBar -->
-    <nav class="bg-white h-[77px] w-full fixed  z-50 shadow-xl max-md:h-[300px] max-xl:w-[1550px]">
+    <nav class="bg-white h-[77px] w-full fixed  z-50 shadow-xl max-md:h-[300px] max-xl:w-[1555px]">
       <img class="h-[77px] w-[212px] absolute max-md:w-[600px] max-md:h-[230px] max-md:top-10" src="@/assets/logo-kimo-nav.png"/>
       <!-- Button Dowmload -->
       <a href="#download" v-smooth-scroll="{ duration: 1000, offset: -50 }">
@@ -14,17 +14,17 @@
     </nav>
 
     <!-- Header Content -->
-    <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300 max-md:top-[400px] max-md:h-[2305px]">
+    <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300 max-md:top-[400px] max-md:h-[2390px]">
       <!-- Circle Animation -->
-      <CircleMove class="absolute max-md:top-[1200px]" />
+      <CircleMove class="absolute max-md:top-[1280px]" />
       <h1 class="absolute z-30 max-w-[780px] h-[162px] font-Roboto font-[700] text-[40px] top-44 left-10 pointer-events-none max-md:text-[80px] 
-      max-md:top-[1420px] max-md:max-w-[1300px] max-md:left-20">
+      max-md:top-[1500px] max-md:max-w-[1300px] max-md:left-20">
         Selamat datang di Kimo, pangkalan rahasia bagi para pemberani yang siap menjelajahi dunia bahasa Inggris! 🌍✨
       </h1>
 
       <!-- menu page scroll bounce -->
       <div class="absolute bg-default top-[530px] h-[65px] w-[65px] rounded-full left-[700px] text-white animate-bounce shadow-2xl z-40 cursor-pointer
-      max-md:h-[200px] max-md:w-[200px] max-md:top-[2200px] max-md:left-[615px]" title="See News">
+      max-md:h-[200px] max-md:w-[200px] max-md:top-[2300px] max-md:left-[615px]" title="See News">
         <a href="#news" v-smooth-scroll="{ duration: 1000, offset: -50 }">
           <img src="@/assets/down-arrow.png">
         </a>

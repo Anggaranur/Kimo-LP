@@ -35,12 +35,12 @@
           <h1 class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] absolute left-[300px] pt-16 max-xl:left-[350px] max-md:text-[60px] max-md:max-w-[1200px]">
             Rasakan  Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!
           </h1>
-            <p class="font-Roboto text-center absolute left-[330px] top-[330px] text-[20px] max-xl:w-[900px] max-xl:left-[350px] max-md:text-[45px] max-md:max-w-[900px] max-md:pt-[50px]">
+            <p class="font-Roboto text-center absolute left-[330px] top-[220px] text-[30px] max-xl:w-[900px] max-xl:left-[350px] max-md:text-[45px] max-md:max-w-[900px] max-md:pt-[50px]">
               Bebas belajar bahasa inggris dimana aja dan kapan aja bareng  tutor terbaik  Kampung Inggris LC
             </p>
         </div>
         <!-- Program Component Slider -->
-        <Slider class="mt-[400px]"/>
+        <Slider class="mt-[200px]"/>
     </div>
 
     <!--Our Milestones Title  -->
@@ -50,46 +50,48 @@
       </h1>
     </div>
     <!-- Our Milestones -->
-    <div class="bg-default h-[373px] relative max-xl:w-[1480px]">
+  <div class="bg-default h-[373px] relative max-xl:w-[1555px]">
       <!-- Image Left -->
       <img class="w-[353px] h-[345px] absolute left-10" src="@/assets/milestones.png">
+
       <!-- Content Left -->
+      <div>
+          <!-- Text  1 -->
+          <img class="absolute left-[500px] top-[51px]" src="@/assets/logo-people-arrow.svg"/>
+          <p class="text-[25px] font-[500] absolute left-[530px] top-[42px]">
+            Memiliki 47.449+ alumni
+          </p>
 
-      <!-- Text  1 -->
-      <img class="absolute left-[500px] top-[51px]" src="@/assets/logo-people-arrow.svg"/>
-      <p class="text-[25px] font-[500] absolute left-[530px] top-[42px]">
-        Memiliki 47.449+ alumni
-      </p>
+          <!-- Text 2 -->
+          <img class=" absolute left-[500px] top-[100px]" src="@/assets/logo-computer.svg" />
+          <p class="text-[25px] font-[500] absolute left-[530px] top-[90px]">
+            Memiliki program kelas online tatap muka
+          </p>
 
-      <!-- Text 2 -->
-      <img class=" absolute left-[500px] top-[100px]" src="@/assets/logo-computer.svg" />
-      <p class="text-[25px] font-[500] absolute left-[530px] top-[90px]">
-        Memiliki program kelas online tatap muka
-      </p>
+          <!-- Text 3 -->
+          <img class="absolute left-[500px] top-[150px]" src="@/assets/logo-teacher-chalkboard.svg"/>
+          <p class="text-[25px] font-[500] absolute left-[530px] top-[140px]">
+            Memiliki 143 tutor
+          </p>
 
-      <!-- Text 3 -->
-      <img class="absolute left-[500px] top-[150px]" src="@/assets/logo-teacher-chalkboard.svg"/>
-      <p class="text-[25px] font-[500] absolute left-[530px] top-[140px]">
-        Memiliki 143 tutor
-      </p>
+          <!-- Text 4 -->
+          <img class="absolute left-[500px] top-[200px]" src="@/assets/logo-youtube.svg"/>
+          <p class="text-[25px] font-[500] absolute left-[530px] top-[187px]">
+            Memiliki 1,7 juta subscribers YouTube
+          </p>
 
-      <!-- Text 4 -->
-      <img class="absolute left-[500px] top-[200px]" src="@/assets/logo-youtube.svg"/>
-      <p class="text-[25px] font-[500] absolute left-[530px] top-[187px]">
-        Memiliki 1,7 juta subscribers YouTube
-      </p>
+          <!-- Text 5 -->
+          <img class="absolute left-[500px] top-[250px]" src="@/assets/logo-instagram.svg"/>
+          <p class="text-[25px] font-[500] absolute left-[530px] top-[240px]">
+            Memiliki 1,1 juta followers Instagram
+          </p>
 
-      <!-- Text 5 -->
-      <img class="absolute left-[500px] top-[250px]" src="@/assets/logo-instagram.svg"/>
-      <p class="text-[25px] font-[500] absolute left-[530px] top-[240px]">
-        Memiliki 1,1 juta followers Instagram
-      </p>
-
-      <!-- Text 6 -->
-      <img class="absolute left-[500px] top-[300px]" src="@/assets/logo-tiktok.svg"/>
-      <p class="text-[25px] font-[500] absolute left-[530px] top-[290px]">
-        Memiliki 700 ribu followers Tiktok
-      </p>
+          <!-- Text 6 -->
+          <img class="absolute left-[500px] top-[300px]" src="@/assets/logo-tiktok.svg"/>
+          <p class="text-[25px] font-[500] absolute left-[530px] top-[290px]">
+            Memiliki 700 ribu followers Tiktok
+          </p>
+      </div>
     </div>
 
     <!-- Learning Video Title -->
@@ -108,7 +110,7 @@
       </h1>
     </div>
     <!-- Berita Content -->
-    <div class="relative">
+    <div class="relative max-xl:w-[1555px]">
       <div class="bg-default absolute z-20 right-0 left-0 h-[300px] top-[307px] text-default">
         .
       </div>
@@ -116,7 +118,7 @@
     <sliderNews class="z-30"/>
 
     <!-- Kimo Image -->
-    <img class="w-full h-[590px] object-contain" src="@/assets/logo-tab.jpg">
+    <img class="w-full h-[590px] object-contain max-xl:ml-[300px]" src="@/assets/logo-tab.jpg">
   </main>
   <!-- End Main -->
 

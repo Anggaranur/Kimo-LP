@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-black h-[416px] w-full mt-[500px] text-center relative">
+  <footer class="bg-black h-[416px] w-full mt-[500px] text-center max-xl:w-[1555px] relative">
 
     <!-- Text Left Content -->
       <h1 class=" text-[16px] text-textDefault font-[700] absolute top-20 left-20 w-[219px]">
