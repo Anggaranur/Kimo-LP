@@ -1,5 +1,5 @@
 <template>
- <header class="bg-default h-[708px] max-xl:w-[1500px] max-md:h-[2500px] relative">
+ <header class="bg-default h-[708px] max-xl:w-[1500px] max-md:h-[2800px] relative">
     <!-- NavBar -->
     <nav class="bg-white h-[77px] fixed w-full z-50 shadow-xl max-md:h-[300px]">
       <img class="h-[77px] w-[212px] absolute max-md:w-[390px] max-md:h-[140px] max-md:top-5" src="@/assets/logo-kimo-nav.png"/>
@@ -14,7 +14,7 @@
     </nav>
 
     <!-- Header Content -->
-    <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300 max-md:top-[200px] max-md:h-[1800px]">
+    <div class="bg-white absolute top-[120px] right-12 left-12 h-[546px] rounded-xl hover:shadow-2xl duration-300 max-md:top-[400px] max-md:h-[2300px]">
       <!-- Circle Animation -->
       <CircleMove />
       <h1 class="absolute z-30 max-w-[780px] h-[162px] font-Roboto font-[700] text-[40px] top-44 left-10 pointer-events-none max-md:text-[55px]">
