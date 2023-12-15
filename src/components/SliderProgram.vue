@@ -1,7 +1,7 @@
 <template>
   <div class="h-[635px] bg-[#ebebebd0] max-xl:w-[1400px]">
     <vueper-slides
-      class="no-shadow p-12"
+      class="no-shadow ml-12 pt-16"
       :visible-slides="4"
       slide-multiple 
       :slide-ratio="1 / 3"

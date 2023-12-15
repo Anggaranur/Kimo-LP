@@ -1,7 +1,7 @@
 <template>
- <header class="bg-default h-[708px] max-xl:w-[1400px] relative">
+ <header class="bg-default h-[708px] max-xl:w-[1500px]  relative">
     <!-- NavBar -->
-    <nav class="bg-white h-[77px] fixed w-full z-50 shadow-xl">
+    <nav class="bg-white h-[77px] fixed w-full z-50 shadow-xl max-xl:h-[150px]">
       <img class="h-[77px] w-[212px]" src="@/assets/logo-kimo-nav.png"/>
       <!-- Button Dowmload -->
       <a href="#download" v-smooth-scroll="{ duration: 1000, offset: -50 }">
