@@ -1,5 +1,5 @@
 <template>
- <header class="bg-default h-[708px] max-xl:w-[1550px] max-md:h-[2805px] relative">
+ <header class="bg-default h-[708px] max-xl:w-[1550px] max-md:h-[2900px] relative">
     <!-- NavBar -->
     <nav class="bg-white h-[77px] w-full fixed  z-50 shadow-xl max-md:h-[300px] max-xl:w-[1550px]">
       <img class="h-[77px] w-[212px] absolute max-md:w-[600px] max-md:h-[230px] max-md:top-10" src="@/assets/logo-kimo-nav.png"/>
