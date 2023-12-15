@@ -1,12 +1,12 @@
 <template>
-  <div class="h-[635px] bg-[#ebebebd0]">
+  <div class="h-[635px] bg-[#ebebebd0] max-xl:w-[1400px]">
     <vueper-slides
-      class="no-shadow p-20 h-[461px] mx-auto"
+      class="no-shadow p-12"
       :visible-slides="4"
       slide-multiple 
       :slide-ratio="1 / 3"
       :dragging-distance="200"
-      :breakpoints="{ 1000: { visibleSlides: 2, slideMultiple: 2 } }"
+      :breakpoints="{ 1024: { visibleSlides: 3, slideMultiple: 2 } }"
     >
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>

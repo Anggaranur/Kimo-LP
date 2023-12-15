@@ -24,7 +24,7 @@
       <svg class="absolute top-32 left-[460px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C15.87 2 19 5.13 19 9C19 14.25 12 22 12 22C12 22 5 14.25 5 9C5 5.13 8.13 2 12 2ZM7 9C7 11.85 9.92 16.21 12 18.88C14.12 16.19 17 11.88 17 9C17 6.24 14.76 4 12 4C9.24 4 7 6.24 7 9ZM12 11.5C10.6193 11.5 9.5 10.3807 9.5 9C9.5 7.61929 10.6193 6.5 12 6.5C13.3807 6.5 14.5 7.61929 14.5 9C14.5 10.3807 13.3807 11.5 12 11.5Z" fill="#F6121C"/>
       </svg>
-      <a href="`">
+      <a href="https://maps.app.goo.gl/i1yvbRyVT6SAAbFo7" target="_blank" title="Click to Open Maps">
         <p class="text-white w-[175px] text-[16px] leading-[24px] absolute top-32 left-[490px] text-start">
         Jl. Langkat No.88-93, Singgahan, Pelem, Kec. Pare, Kabupaten Kediri, Jawa Timur 64213
         </p>
@@ -50,7 +50,7 @@
         <img class="w-[41px] h-[41px] absolute top-20 left-[760px] cursor-pointer transition-transform transform hover:scale-110" src="@/assets/logo-ig.svg"/>
       </a>
       <!-- Youtube -->
-      <a href="https://www.youtube.com/@kampunginggrislc" target="_blank" title="Subscribe Our Youtube">
+      <a href="https://www.youtube.com/@kampunginggrislc" target="_blank" title="Subscribe Our Channel">
         <img class="absolute top-[85px] left-[820px] cursor-pointer transition-transform transform hover:scale-110" src="@/assets/logo-yt.svg"/>
       </a>
       <!-- Tiktok -->

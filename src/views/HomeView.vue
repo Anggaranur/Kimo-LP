@@ -34,7 +34,7 @@
         <div class="bg-white h-52 w-full relative">
           <h1 class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] absolute left-[300px] top-5">
             Rasakan  Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!</h1>
-            <p class="font-Roboto text-center  absolute left-[300px] top-36 text-[20px]">
+            <p class="font-Roboto text-center absolute left-[330px] top-36 text-[20px] max-xl:w-[900px] max-xl:left-[300px]">
               Bebas belajar bahasa inggris dimana aja dan kapan aja bareng  tutor terbaik  Kampung Inggris LC
             </p>
         </div>
