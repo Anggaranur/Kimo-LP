@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[450px] bg-[#FE9A03] max-xl:w-[1555px] relative">
+  <div class="h-[450px] bg-[#FE9A03] w-[1520px] max-xl:w-[1555px] relative">
     <vueper-slides
       class="no-shadow p-20 absolute top-[-40px]"
       :visible-slides="4"

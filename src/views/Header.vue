@@ -1,7 +1,7 @@
 <template>
- <header class="bg-default h-[708px] max-xl:w-[1555px] max-md:h-[2905px] relative">
+ <header class="bg-default h-[708px] w-[1520px] max-xl:w-[1555px] max-md:h-[2905px] relative">
     <!-- NavBar -->
-    <nav class="bg-white h-[77px] w-full fixed  z-50 shadow-xl max-md:h-[300px] max-xl:w-[1555px]">
+    <nav class="bg-white h-[77px] w-[1520px] fixed  z-50 shadow-xl max-md:h-[300px] max-xl:w-[1555px]">
       <img class="h-[77px] w-[212px] absolute max-md:w-[600px] max-md:h-[230px] max-md:top-10" src="@/assets/logo-kimo-nav.png"/>
       <!-- Button Dowmload -->
       <a href="#download" v-smooth-scroll="{ duration: 1000, offset: -50 }">
@@ -24,7 +24,7 @@
 
       <!-- menu page scroll bounce -->
       <div class="absolute bg-default top-[530px] h-[65px] w-[65px] rounded-full left-[700px] text-white animate-bounce shadow-2xl z-40 cursor-pointer
-      max-md:h-[200px] max-md:w-[200px] max-md:top-[2300px] max-md:left-[615px]" title="See News">
+      max-md:h-[200px] max-md:w-[200px] max-md:top-[2300px] max-md:left-[625px]" title="See News">
         <a href="#news" v-smooth-scroll="{ duration: 1000, offset: -50 }">
           <img src="@/assets/down-arrow.png">
         </a>
@@ -32,7 +32,7 @@
 
       <!-- Logo Header -->
       <div class=" absolute top-0  right-3 w-[820px]  max-md:w-[2400px]">
-        <img class="absolute h-[546px] right-2 max-md:h-[1200px] max-md:right-28" src="@/assets/kimo-header.png">
+        <img class="absolute h-[546px] right-2  max-md:h-[1200px] max-md:right-28" src="@/assets/kimo-header.png">
       </div>
     </div>
   </header>

@@ -35,22 +35,22 @@
           <h1 class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] absolute left-[300px] pt-16 max-xl:left-[350px] max-md:text-[60px] max-md:max-w-[1200px]">
             Rasakan  Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!
           </h1>
-            <p class="font-Roboto text-center absolute left-[330px] top-[220px] text-[30px] max-xl:w-[900px] max-xl:left-[350px] max-md:text-[45px] max-md:max-w-[900px] max-md:top-[350px]">
+            <p class="font-Roboto text-center absolute left-[150px] top-[220px] text-[30px] max-xl:w-[900px] max-xl:left-[350px] max-md:text-[45px] max-md:max-w-[900px] max-md:top-[350px]">
               Bebas belajar bahasa inggris dimana aja dan kapan aja bareng  tutor terbaik  Kampung Inggris LC
             </p>
         </div>
         <!-- Program Component Slider -->
-        <Slider class="max-md:mt-[420px] max-xl:mt-[180px]"/>
+        <Slider class="mt-[130px] max-md:mt-[420px] max-xl:mt-[180px]"/>
     </div>
 
     <!--Our Milestones Title  -->
     <div class="bg-white h-[154px] relative">
-      <h1 class="font-Roboto font-bold text-[40px] absolute top-10 left-[600px]">
+      <h1 class="font-Roboto font-bold text-[40px] absolute top-10 left-[650px] max-lg:w-[300px]">
         Our Milestones
       </h1>
     </div>
     <!-- Our Milestones -->
-  <div class="bg-default h-[373px] relative max-xl:w-[1555px]">
+  <div class="bg-default h-[373px] relative w-[1520px] max-xl:w-[1555px]">
       <!-- Image Left -->
       <img class="w-[353px] h-[345px] absolute left-10" src="@/assets/milestones.png">
 
@@ -110,7 +110,7 @@
       </h1>
     </div>
     <!-- Berita Content -->
-    <div class="relative max-xl:w-[1555px]">
+    <div class="relative w-[1520px] max-xl:w-[1555px]">
       <div class="bg-default absolute z-20 right-0 left-0 h-[300px] top-[307px] text-default">
         .
       </div>
@@ -118,11 +118,11 @@
     <sliderNews class="z-30"/>
 
     <!-- Kimo Image -->
-    <img class="w-full h-[590px] object-contain max-xl:ml-[300px]" src="@/assets/logo-tab.jpg">
+    <img class="w-full h-[590px] object-contain  max-xl:ml-[300px]" src="@/assets/logo-tab.jpg">
   </main>
   <!-- End Main -->
 
   <!-- Footer -->
-  <FooterSection/>
+  <FooterSection class=""/>
 </template>
 <!-- End Main Content -->

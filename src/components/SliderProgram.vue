@@ -1,20 +1,20 @@
 <template>
-  <div class="h-[635px] bg-[#ebebebd0] max-xl:w-[1500px]">
+  <div class="h-[635px] bg-[#ebebebd0] w-[1470px] max-xl:w-[1500px] max-md:h-[1000px]">
     <vueper-slides
       class="no-shadow ml-12 pt-16"
-      :visible-slides="4"
+      :visible-slides="getVisibleSlides()"
       slide-multiple 
       :slide-ratio="1 / 3"
       :dragging-distance="200"
-      :breakpoints="{ 1024: { visibleSlides: 3, slideMultiple: 2 } }"
+      :breakpoints="{ 425: { visibleSlides: 2, slideMultiple: 2 } }"
     >
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>
           <div
-            :class="['h-full w-[319px] mx-auto p-4 rounded-lg shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90 relative ' ]"
+            :class="['h-full w-[319px] mx-auto p-4 rounded-lg shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90 relative max-md:w-full']"
           >
             <!-- Content -->
-            <img :src="getImagePath(card.image)" alt="Card image" class="w-[287px] h-[287px] rounded-lg" />
+            <img :src="getImagePath(card.image)" alt="Card image" class="w-full h-[287px] rounded-lg" />
             <p class="text-center text-[20px] font-[700] ">{{ card.title }}</p>
             <p class="text-center font-[400] text-[13px]">{{ card.content }}</p>
           </div>
@@ -45,10 +45,22 @@ export default {
     };
   },
 
-  methods : {
-     getImagePath(image) {
-       return new URL(`../assets/${image}`, import.meta.url).href;
+  methods: {
+    getImagePath(image) {
+      return new URL(`../assets/${image}`, import.meta.url).href;
     },
-  }
+    getVisibleSlides() {
+      return window.innerWidth <= 425 ? 2 : 4;
+    },
+  },
 };
 </script>
+
+<style scoped>
+/* Atur jumlah kartu yang terlihat pada breakpoint 425px */
+@media (max-width: 425px) {
+  .vueper-slides {
+    --visible-slides: 2 !important;
+  }
+}
+</style>
