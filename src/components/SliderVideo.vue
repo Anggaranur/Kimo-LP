@@ -1,7 +1,9 @@
 <template>
+  <!-- Dekstop -->
+  <div class="hidden md:block">
   <div class="h-[450px] bg-[#FE9A03] w-[1520px] max-xl:w-[1555px] relative">
     <vueper-slides
-      class="no-shadow p-20 absolute top-[-40px]"
+      class=" no-shadow p-20 absolute top-[-40px]"
       :visible-slides="4"
       slide-multiple
       :gap="-1"
@@ -37,6 +39,50 @@
         </template>
       </vueper-slide>
     </vueper-slides>
+  </div>
+</div>
+
+<!-- Mobile -->
+  <div class="md:hidden mt-[500px]">
+    <div class="h-[1500px] bg-[#FE9A03] w-[1520px] max-xl:w-[1555px] relative">
+    <vueper-slides
+      class="no-shadow p-20 pt-[150px]"
+      :visible-slides="1"
+      slide-multiple
+      :gap="12"
+      :slide-ratio="1"
+      :dragging-distance="200"
+      :breakpoints="{ 1000: { visibleSlides: 2, slideMultiple: 2 } }">
+   
+      <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
+        <template #content>
+          <div
+            :class="['h-[1200px] w-[1200px] mx-auto rounded-lg hover:shadow-xl duration-500', card.background, 
+            'transition-transform transform hover:scale-95']">
+
+          <!-- Content -->
+            <div>
+            <!-- Card Video -->
+            <iframe :src="card.video" class="w-full h-[800px] rounded-lg mb-[20px]" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture; web-share" allowfullscreen></iframe>
+              <!-- Icon LC -->
+              <!-- <div class="relative">
+                <img src="@/assets/border-icon.svg" class="absolute left-0 top-[-715px] w-[200px] h-auto"/>
+                <img src="@/assets/lc-logo.png" class="absolute rounded-full left-[5px] top-[-710px] w-[190px] h-auto"/>
+                <img src="@/assets/check-icon.svg" class="absolute rounded-full left-[135px] top-[-590px] w-[65px]"/>
+              </div> -->
+              <!-- Video Time -->
+              
+              <!-- Text Content -->
+              <p class="text-white font-Poppins font-[600] text-[80px] text-start ml-10 mt-[20px]">{{ card.titles }}</p>
+
+            </div>
+          </div>
+        </template>
+      </vueper-slide>
+    </vueper-slides>
+  </div>
   </div>
 </template>
 

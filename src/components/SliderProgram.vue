@@ -1,30 +1,31 @@
 <template>
-  
-  <div class="md:hidden bg-[#ebebebd0] w-auto max-xl:w-[1500px] max-md:h-[1000px]">
+  <!-- Mobile -->
+  <div class="md:hidden bg-white w-full max-xl:w-[1500px] max-md:h-[1680px]">
     <vueper-slides
-      class="no-shadow ml-12 py-16"
-      :visible-slides="2"
-      slide-multiple 
-      :gap = "3"
-      :slide-ratio="1/ 1.3"
+      class="no-shadow  py-16"
+      :visible-slides="1"
+      :gap = "1"
+      :slide-ratio="1"
       :dragging-distance="200"
       :breakpoints="breakpoints"
     >
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>
-          <div class="h-full"
-            :class="['h-auto w-[319px] mx-auto rounded-lg shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90 relative max-md:w-full']"
+          <div class="h-[2000px] ml-[60px]"
+            :class="['h-auto w-[319px] mx-auto rounded-lg  duration-500', card.background, 'transition-transform transform scale-90 hover:scale-95 relative max-md:w-full pt-10']"
           >
             <!-- Content -->
-            <img :src="getImagePath(card.image)" alt="Card image" class="w-full h-auto rounded-lg" />
-            <p class="text-center text-[20px] font-[700] ">{{ card.title }}</p>
-            <p class="text-center font-[400] text-[13px]">{{ card.content }}</p>
+            <img :src="getImagePath(card.image)" alt="Card image" class="w-[1200px] h-auto pl-[200px] rounded-lg" />
+            <p class="text-center text-[70px] font-[700] pt-18 ">{{ card.title }}</p>
+            <p class="text-center font-[400] text-[53px] w-[1400px] pt-10">{{ card.content }}</p>
           </div>
         </template>
       </vueper-slide>
     </vueper-slides>
   </div>
-  <div class="hidden md:block bg-[#ebebebd0] w-auto max-xl:w-[1500px] max-md:h-[1000px]">
+
+  <!-- Dekstop -->
+  <div class="hidden md:block bg-[#ebebebd0] w-auto max-xl:w-[1500px] max-md:h-[1000px] mt-[150px]">
     <vueper-slides
       class="no-shadow ml-12 py-16"
       :visible-slides="4"

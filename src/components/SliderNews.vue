@@ -1,5 +1,36 @@
 <template>
-  <div class="h-[635px] relative w-[1520px] max-xl:w-[1555px]">
+  <!-- Mobile  -->
+  <div class=" md:hidden h-[635px] relative w-[1520px] max-xl:w-[1555px] mt-[30px]">
+    <vueper-slides
+      class="no-shadow p-20 h-[461px] mx-auto"
+      :visible-slides="1"
+      slide-multiple 
+      :slide-ratio="1"
+      :dragging-distance="200"
+      :breakpoints="{ 1000: { visibleSlides: 2, slideMultiple: 2 } }">
+
+      <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
+        <template #content>
+          <div
+            :class="['h-[1600px] w-[1150px] mx-auto rounded-lg hover:shadow-xl duration-500', card.background,
+            'transition-transform transform hover:scale-95 scale-90 relative']">
+              <!-- Card Image -->
+            <img :src="getImagePath(card.image)" alt="Card image" class="w-full h-[975px] rounded-xl p-5" />
+              <!--Text Content-->
+            <p class="text-center text-white text-[50px] font-[800]">{{ card.title }}</p>
+            <p class="text-center text-white text-[45px] font-[400] p-5 pt-2 pb-[100px]">{{ card.content }}</p>
+            <!-- Button -->
+            <button class="bg-[#F6121C] w-[418px] h-[170px]  rounded-sm text-white font-[700] text-[50px] absolute left-[350px] bottom-40 transition-opacity hover:opacity-90 active:opacity-60">
+              Baca Detail
+            </button>
+          </div>
+        </template>
+      </vueper-slide>
+    </vueper-slides>
+  </div>
+
+  <!-- Dekstop -->
+  <div class="hidden md:block h-[635px] relative w-[1520px] max-xl:w-[1555px]">
     <vueper-slides
       class="no-shadow p-20 h-[461px] mx-auto"
       :visible-slides="4"
