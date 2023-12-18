@@ -21,6 +21,9 @@ import gsap from 'gsap';
 
 const direction = ref(-1); // -1 for left, 1 for right
 
+const onBeforeEnter = () => {};
+const onEnter = () => {};
+const onLeave = () => {};
 const onMouseOver = () => {
   direction.value = 1; // Move to the right when hovered
   gsap.to('.gsap-box', {

@@ -12,10 +12,10 @@ import router from './router'
 const app = createApp(App)
 
 
-app.use(router)
+app.use(router);
 app.use(VueSmoothScroll, {
   duration: 1000000,
   updateHistory: false
 })
 
-app.mount('#app')
+app.mount('#myApp');

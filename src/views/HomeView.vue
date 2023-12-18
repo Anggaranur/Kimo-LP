@@ -118,11 +118,12 @@
     <sliderNews class="z-30"/>
 
     <!-- Kimo Image -->
-    <img class="w-full h-[590px] object-contain  max-xl:ml-[300px]" src="@/assets/logo-tab.jpg">
+    <img class="w-full h-[590px] absolute  max-xl:left-[-30px] max-lg:left-[100px] object-contain  max-xl:ml-[300px]" 
+    src="@/assets/logo-tab.jpg">
   </main>
   <!-- End Main -->
 
   <!-- Footer -->
-  <FooterSection class=""/>
+  <FooterSection class="absolute top-[80px] max-lg:top-[150px] max-xl:top-[120px]"/>
 </template>
 <!-- End Main Content -->
