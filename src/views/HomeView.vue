@@ -119,7 +119,7 @@
     <sliderNews class="z-30"/>
 
     <!-- Kimo Image -->
-    <img class="w-full h-[590px] absolute  max-xl:left-[-30px] max-lg:left-[100px] object-contain  max-xl:ml-[300px] max-sm:hidden ml-[50px]" 
+    <img class="w-full h-[590px] absolute  max-xl:left-[-30px] max-lg:left-[100px] object-contain  max-xl:ml-[300px] max-md:hidden ml-[50px]" 
     src="@/assets/logo-tab.jpg">
   </main>
   <!-- End Main -->
