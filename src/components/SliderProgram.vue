@@ -1,6 +1,6 @@
 <template>
   <!-- Mobile -->
-  <div class="md:hidden bg-white w-full max-xl:w-[1500px] max-md:h-[1680px]">
+  <div class="md:hidden w-auto px-5 max-ss:px-0  max-mp:px-0 max-md:w-[105rem] max-md:h-[1680px]  max-md:px-16">
     <vueper-slides
       class="no-shadow  py-16"
       :visible-slides="1"
@@ -11,12 +11,12 @@
     >
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>
-          <div class="h-[2000px] ml-[60px]"
+          <div class="h-[2000px] ml-[60px] max-ss:mr-[20px]"
             :class="['h-auto w-[319px] mx-auto rounded-lg  duration-500', card.background, 'transition-transform transform scale-90 hover:scale-95 relative max-md:w-full pt-10']"
           >
             <!-- Content -->
             <img :src="getImagePath(card.image)" alt="Card image" class="w-[1200px] h-auto pl-[200px] rounded-lg" />
-            <p class="text-center text-[70px] font-[700] pt-18 ">{{ card.title }}</p>
+            <p class="text-center text-[70px] max-ss:mr-56 max-md:mr-48 max-mp:mr-72 font-[700] pt-18 max-sm:left-0 ">{{ card.title }}</p>
             <p class="text-center font-[400] text-[53px] w-[1400px] pt-10">{{ card.content }}</p>
           </div>
         </template>
@@ -25,9 +25,9 @@
   </div>
 
   <!-- Dekstop -->
-  <div class="hidden md:block bg-[#ebebebd0] w-auto max-xl:w-[1500px] max-md:h-[1000px] mt-[150px]">
+  <div class="hidden md:block bg-[#f5f5f5d0] w-full mt-[150px]">
     <vueper-slides
-      class="no-shadow ml-12 py-16"
+      class="no-shadow ml-12 py-16 pl-5 2xl:w-[88rem] 2xl:px-34"
       :visible-slides="4"
       slide-multiple 
       :gap = "3"
@@ -41,7 +41,7 @@
             :class="['h-auto w-[319px] mx-auto rounded-lg shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90 relative max-md:w-full']"
           >
             <!-- Content -->
-            <img :src="getImagePath(card.image)" alt="Card image" class="w-full h-auto rounded-lg" />
+            <img :src="getImagePath(card.image)" alt="Card image" class="w-full h-[319px] rounded-lg" />
             <p class="text-center text-[20px] font-[700] ">{{ card.title }}</p>
             <p class="text-center font-[400] text-[13px]">{{ card.content }}</p>
           </div>

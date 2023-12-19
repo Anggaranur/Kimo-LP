@@ -6,6 +6,8 @@ module.exports = {
   ],
   theme: {
     screens: {
+      'mp': '400px',
+      'ss' : '376px',
       'sm': '425px',
 
       'md': '640px',
@@ -16,6 +18,7 @@ module.exports = {
 
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
+      '2xl': '1536px',
     },
     extend: {
       colors: {

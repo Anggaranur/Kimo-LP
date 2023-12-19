@@ -1,7 +1,7 @@
 <template>
   <!-- Dekstop -->
   <div class="hidden md:block">
-  <div class="h-[450px] bg-[#FE9A03] w-[1520px] max-xl:w-[1555px] relative">
+  <div class="h-[470px] bg-[#FE9A03] w-[105rem] 2xl:w-[95rem] relative">
     <vueper-slides
       class=" no-shadow p-20 absolute top-[-40px]"
       :visible-slides="4"
@@ -44,7 +44,7 @@
 
 <!-- Mobile -->
   <div class="md:hidden mt-[500px]">
-    <div class="h-[1500px] bg-[#FE9A03] w-[1520px] max-xl:w-[1555px] relative">
+    <div class="h-[100rem] bg-[#FE9A03] w-[105rem] max-ss:w-[95rem] max-mp:w-[100rem] relative">
     <vueper-slides
       class="no-shadow p-20 pt-[150px]"
       :visible-slides="1"
