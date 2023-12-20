@@ -6,8 +6,12 @@ module.exports = {
   ],
   theme: {
     screens: {
+      'us': '330px',
+
       'mp': '400px',
+
       'ss' : '376px',
+
       'sm': '425px',
 
       'md': '640px',
@@ -30,6 +34,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+
+  ],
 }
 

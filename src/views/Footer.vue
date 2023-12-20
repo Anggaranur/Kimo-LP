@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-black h-[416px] w-[105rem]  text-center  relative max-md:h-[3000px]">
+  <footer class="bg-black h-[416px] w-[105rem]  text-center  relative max-md:h-[3000px] max-us:w-[80rem]">
 
     <!-- Text Left Content -->
       <h1 class=" text-[16px] text-textDefault font-[700] absolute top-20 left-20 w-[219px] max-md:text-[55px] max-md:w-[600px] max-md:left-[180px] max-md:top-[110px]">
@@ -12,7 +12,7 @@
         Kimo for Students memudahkan pelajar di LC Kampung Inggris Pare dengan pemantauan jadwal, akses materi, dan pelacakan progres. Sukses belajar lebih terjangkau dan terstruktur dengan Kimo for Students. Selamat belajar dan capai prestasi optimal!
       </p>
 
-      <p class="text-[#08A0F7] absolute top-[370px] left-[108px] max-md:text-[55px] max-md:w-[105rem] max-md:top-[3900px] max-md:left-0 max-md:bg-black max-md:h-[300px] max-md:pt-[100px] max-ss:w-[95rem] max-mp:w-[100rem]">
+      <p class="text-[#08A0F7] absolute top-[370px] left-[108px] max-md:text-[55px] max-md:w-[105rem] max-md:top-[3900px] max-md:left-0 max-md:bg-black max-md:h-[300px] max-md:pt-[100px] max-ss:w-[95rem] max-mp:w-[100rem] max-us:w-[80rem]">
         LC Kampung Inggris : <a class="cursor-pointer text-white underline" title="Join Us Now" href="https://www.kampunginggris.id/ " target="_blank">https://www.kampunginggris.id/</a>
       </p>
 
@@ -63,18 +63,22 @@
       </p>
 
       <!-- Download Content -->
-      <h1 id="download" class="text-[20px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1150px] max-md:text-[75px] max-md:w-[900px] max-md:top-[2750px] max-md:left-[350px] max-md:leading-[80px]">
+      <h1 id="download" class="text-[20px] font-[700] text-[#3A86FF] absolute top-[70px] left-[1150px] max-md:text-[75px] max-md:w-[900px] 
+      max-md:top-[2750px] max-md:left-[350px] max-md:leading-[80px] max-us:left-[12rem]">
         Download and Join Now!
       </h1>
 
-      <div class="bg-white absolute top-[140px] left-[1155.8px] h-46 w-[230px] rounded-lg  duration-300 flex flex-col items-center max-md:w-[900px] max-md:h-[800px] max-md:top-[3050px] max-md:left-[25rem] max-ss:left-[20rem] max-mp:left-[20rem]">
+      <div class="bg-white absolute top-[140px] left-[1155.8px] h-46 w-[230px] rounded-lg  duration-300 flex flex-col items-center 
+      max-md:w-[900px] max-md:h-[800px] max-md:top-[3050px] max-md:left-[25rem] max-ss:left-[20rem] max-mp:left-[20rem] max-us:left-[12rem]">
         <!-- Button Downlaod  Playstore-->
         <a class="pt-8" href="https://play.google.com/store/apps/details?id=com.kampunginggris.lc_member&pcampaignid=web_share" target="_blank">
-            <img src="@/assets/playstore.png" class="h-12 w-30 cursor-pointer active:opacity-50 duration-300 transition-transform transform hover:scale-110 max-md:h-[200px] max-md:w-[700px] max-md:mt-[170px]" title="Download for Android Now!"/>
+            <img src="@/assets/playstore.png" class="h-12 w-30 cursor-pointer active:opacity-50 duration-300 transition-transform transform 
+            hover:scale-110 max-md:h-[200px] max-md:w-[700px] max-md:mt-[170px]" title="Download for Android Now!"/>
         </a>
         <!-- Button Downlaod  Playstore-->
         <a class="pt-8 pb-8" href="https://apps.apple.com/id/app/kimo-by-language-center/id6465176169" target="_blank">
-          <img src="@/assets/appstore.png" class="h-12 w-30 cursor-pointer active:opacity-50 duration-300 transition-transform transform hover:scale-110 max-md:h-[200px] max-md:w-[700px]" title="Download for IOS Now!"/>
+          <img src="@/assets/appstore.png" class="h-12 w-30 cursor-pointer active:opacity-50 duration-300 transition-transform transform 
+          hover:scale-110 max-md:h-[200px] max-md:w-[700px]" title="Download for IOS Now!"/>
         </a>
       </div> 
   </footer>

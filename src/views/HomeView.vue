@@ -20,13 +20,11 @@ export default {
 
 <!--Main Content  -->
 <template class="font-Roboto">
-  <div class="w-screen">
+  <main class="w-full">
     <!-- Header -->
     <HeaderSection />
     <!-- End Header -->
 
-    <!-- Main -->
-    <main>
       <div>
         <!-- On Scroll Animate belum done -->
         <ScrollAnimated />
@@ -34,11 +32,13 @@ export default {
         <div
           class="bg-white h-52 w-screen max-md:bg-[#0000000a] max-md:min-w-[104rem] max-md:h-[600px] relative">
           <h1
-            class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] ml-[5rem] 2xl:ml-[19rem] max-sm:left-[15rem] absolute  pt-16 max-xl:left-[350px] max-mp:left-[17rem] max-md:text-[60px] max-md:max-w-[1200px] xl:left-[20rem]">
+            class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] ml-[5rem] 2xl:ml-[19rem] max-sm:left-[15rem] absolute  
+            pt-16 max-xl:left-[350px] 2xl:left-[2rem] max-mp:left-[17rem] max-md:text-[60px] max-md:max-w-[1200px] xl:left-[20rem] max-us:left-[5rem]">
             Rasakan Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!
           </h1>
           <p
-            class="font-Roboto text-center ml-[5rem] absolute  top-[220px] text-[30px] max-xl:w-[900px] 2xl:ml-[7rem] max-ss:left-[15rem] max-xl:left-[350px] max-mp:left-[17rem] max-md:text-[45px] max-md:max-w-[900px] max-md:top-[350px] xl:left-[15rem]">
+            class="font-Roboto text-center ml-[5rem] absolute  top-[220px] text-[30px] max-xl:w-[900px] 2xl:ml-[7rem] max-ss:left-[15rem] max-us:left-[5rem]
+            max-xl:left-[350px] max-mp:left-[17rem] 2xl:left-[1rem] max-md:text-[45px] max-md:max-w-[900px] max-md:top-[350px] xl:left-[15rem]">
             Bebas belajar bahasa inggris dimana aja dan kapan aja bareng tutor
             terbaik Kampung Inggris LC
           </p>
@@ -52,11 +52,10 @@ export default {
 
       <!--Our Milestones Title  -->
       <div
-        class="bg-white h-[154px] max-md:bg-[#0000000a] max-md:w-[104rem] max-md:h-[600px] relative"
-      >
+        class="bg-white h-[154px] max-md:bg-[#0000000a] max-md:w-[104rem] max-md:h-[600px] relative">
         <h1
-          class="font-Roboto font-bold text-[40px] w-[50rem] absolute top-[2rem] left-[50rem] max-ss:left-[30rem] 2xl:left-[40rem] max-lg:w-[300px] max-md:text-[90px] max-md:left-[35rem] max-mp:left-[30rem] max-md:w-[700px] max-md:pt-48"
-        >
+          class="font-Roboto font-bold text-[40px] w-[50rem] absolute top-[2rem] left-[50rem] max-ss:left-[30rem] 2xl:left-[40rem] max-lg:w-[300px]
+           max-md:text-[90px] max-md:left-[35rem] max-mp:left-[30rem] max-md:w-[700px] max-md:pt-48 max-us:left-[20rem]">
           Our Milestones
         </h1>
       </div>
@@ -66,7 +65,7 @@ export default {
       >
         <!-- Image Left -->
         <img
-          class="w-[353px] h-[345px] absolute left-10 max-md:left-[25rem] max-sm:left-[20rem] max-md:w-[900px] max-md:h-[900px]"
+          class="w-[353px] h-[345px] absolute left-10 max-md:left-[25rem] max-sm:left-[20rem] max-md:w-[900px] max-md:h-[900px] max-us:left-[12rem]"
           src="@/assets/milestones.png"
         />
 
@@ -143,7 +142,8 @@ export default {
       <!-- Learning Video Title -->
       <div class="bg-white h-[226px] relative">
         <h1
-          class="font-Roboto font-bold text-[40px] absolute top-10 w-[700px] text-center left-[35rem] 2xl:left-[25rem] max-md:text-[100px] max-md:left-[300px] max-md:w-[1000px] max-md:pt-28"
+          class="font-Roboto font-bold text-[40px] absolute top-10 w-[700px] text-center left-[35rem] 2xl:left-[25rem] max-md:text-[100px] 
+          max-md:left-[300px] max-md:w-[1000px] max-md:pt-28 max-us:left-[10rem]"
         >
           Seru-seruan Bareng Tutor yang Asik! Learning Video
         </h1>
@@ -176,11 +176,10 @@ export default {
         class="w-full h-[590px] absolute max-xl:left-[-30px] max-lg:left-[100px] object-contain max-xl:ml-[300px] max-md:hidden ml-[50px]"
         src="@/assets/logo-tab.jpg"
       /> -->
-    </main>
     <!-- End Main -->
 
     <!-- Footer -->
     <FooterSection/>
-  </div>
+  </main>
 </template>
 <!-- End Main Content -->

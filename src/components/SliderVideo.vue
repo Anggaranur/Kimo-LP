@@ -44,7 +44,7 @@
 
 <!-- Mobile -->
   <div class="md:hidden mt-[500px]">
-    <div class="h-[100rem] bg-[#FE9A03] w-[105rem] max-ss:w-[95rem] max-mp:w-[100rem] relative">
+    <div class="h-[100rem] bg-[#FE9A03] w-[105rem] max-ss:w-[95rem] max-mp:w-[100rem] max-us:w-[80rem] relative">
     <vueper-slides
       class="no-shadow p-20 pt-[150px]"
       :visible-slides="1"
@@ -75,7 +75,8 @@
               <!-- Video Time -->
               
               <!-- Text Content -->
-              <p class="text-white font-Poppins font-[600] text-[80px] text-start ml-10 mt-[20px]">{{ card.titles }}</p>
+              <p class="text-white font-Poppins font-[600] text-[80px] max-us:text-[65px] max-us:w-[1000px] text-start ml-10 mt-[20px]">
+              {{ card.titles }}</p>
 
             </div>
           </div>
@@ -95,14 +96,14 @@ export default {
   data() {
     return {
       cards: [
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video: 'https://www.youtube.com/embed/8W7x_-mMOtU?si=2f8tIWOOI11riT1H' },
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning' , video: 'https://www.youtube.com/embed/WO23Sl2t2OM?si=9IVppVsYewIb3MyQ' },
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video : 'https://www.youtube.com/embed/8w7QDjrrPaM?si=pSv5pf8RkWCNNy58' },
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video : 'https://www.youtube.com/embed/o-qGwAKNfT4?si=7t8G7yS6P1NoTBdh' },
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video : 'https://www.youtube.com/embed/UDFw5IuUQAQ?si=2mybwxeQQI0Z79cx' },
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video : 'https://www.youtube.com/embed/FxJ3zPUU6Y4?si=3hA1pB_hohhy7prA' },
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video : 'https://www.youtube.com/embed/hVyUE5kDq88?si=k9H-r4W9i9lmeDkt' },
-        { titles: 'Belajar Bahasa Inggris Anti Ribet Bareng Ahlinya Langsung Pasti Fun!', background: 'bg-learning', video : 'https://www.youtube.com/embed/UTtbOGRfG9E?si=7hKL79WMxSbbxJFK' },
+        { titles: 'BERHITUNG DALAM BAHASA INGGRIS - Kampung Inggris LC', background: 'bg-learning', video:  'https://www.youtube.com/embed/cnJbs9HPUNk?si=Dufo2gSYKaDdRCAQ' },
+        { titles: '80 KATA YANG PALING SERING DIGUNAKAN DALAM BAHASA INGGRIS | TEATU with Ms Ervi', background: 'bg-learning' , video: 'https://www.youtube.com/embed/EH8QxyeRkfE?si=L8BfTbd1ETO52SJz' },
+        { titles: 'KUPAS TUNTAS VERB 1, 2 DAN 3 DALAM BAHASA INGGRIS - Kampung Inggris LC', background: 'bg-learning', video : 'https://www.youtube.com/embed/XgnWNvl3P6A?si=wGza_foNUgChyBQn' },
+        { titles: 'KOSAKATA BAHASA INGGRIS YANG MIRIP | CONFUSING WORDS IN ENGLISH - Kampung Inggris LC', background: 'bg-learning', video : 'https://www.youtube.com/embed/TEaqmgTTJmI?si=c2mx8m0Q3wuFt2hW' },
+        { titles: 'CARA MUDAH BELAJAR COUNTABLE & UNCOUNTABLE NOUN - Kampung Inggris LC', background: 'bg-learning', video : 'https://www.youtube.com/embed/hpKJvcpD67c?si=XnZK2oBRJ007zm0J' },
+        { titles: 'BAHASA INGGRISNYA KAMAR MANDI DARI BERBAGAI NEGARA - Kampung Inggris LC', background: 'bg-learning', video : 'https://www.youtube.com/embed/pSL9SmmTj-4?si=1naOSAdbEddXNhM7' },
+        { titles: "TERNYATA WONT DAN WON'T ITU BEDA! - Kampung Inggris LC", background: 'bg-learning', video : 'https://www.youtube.com/embed/oNmDxZLYVTA?si=oPj0kQI5UhgewedZ' },
+        { titles: 'PERBEDAAN HAVE, HAS, DAN HAD DALAM BAHASA INGGRIS - Kampung Inggris LC', background: 'bg-learning', video : 'https://www.youtube.com/embed/gdSwr2CkvZ0?si=eshYO4A8wfY3SFeL' },
       ],
     };
   },

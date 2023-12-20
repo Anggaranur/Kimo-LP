@@ -1,6 +1,6 @@
 <template>
   <!-- Mobile -->
-  <div class="md:hidden w-auto px-5 max-ss:px-0  max-mp:px-0 max-md:w-[105rem] max-md:h-[1680px]  max-md:px-16">
+  <div class="md:hidden w-auto px-5 max-ss:px-0  max-mp:px-0 max-md:w-[105rem] max-md:h-[1680px]  max-md:px-16 max-us:w-[95rem]">
     <vueper-slides
       class="no-shadow  py-16"
       :visible-slides="1"
@@ -11,8 +11,9 @@
     >
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>
-          <div class="h-[2000px] ml-[60px] max-ss:mr-[20px]"
-            :class="['h-auto w-[319px] mx-auto rounded-lg  duration-500', card.background, 'transition-transform transform scale-90 hover:scale-95 relative max-md:w-full pt-10']"
+          <div class="h-[2000px] ml-[60px] max-ss:mr-[20px] max-us:ml-[-3rem]"
+            :class="['h-auto w-[319px] mx-auto rounded-lg  duration-500',
+              card.background, 'transition-transform transform scale-90 hover:scale-95 relative max-md:w-full pt-10']"
           >
             <!-- Content -->
             <img :src="getImagePath(card.image)" alt="Card image" class="w-[1200px] h-auto pl-[200px] rounded-lg" />
@@ -38,7 +39,8 @@
       <vueper-slide v-for="(card, index) in cards" :key="index" :title="index.toString()">
         <template #content>
           <div class="h-full"
-            :class="['h-auto w-[319px] mx-auto rounded-lg shadow-xl duration-500', card.background, 'transition-transform transform hover:scale-90 relative max-md:w-full']"
+            :class="['h-auto w-[319px] mx-auto rounded-lg shadow-xl duration-500', 
+            card.background, 'transition-transform transform hover:scale-90 relative max-md:w-full']"
           >
             <!-- Content -->
             <img :src="getImagePath(card.image)" alt="Card image" class="w-full h-[319px] rounded-lg" />
