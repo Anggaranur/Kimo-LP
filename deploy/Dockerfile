@@ -9,9 +9,6 @@ RUN npm run build
 # Production Stage
 FROM node:alpine as production-stage
 WORKDIR /app
-COPY --from=build-stage /app/dist /app/dist
-COPY --from=build-stage /app/package.json /app/
-COPY --from=build-stage /app/package-lock.json /app/
-RUN npm install --only=production
+
 EXPOSE 3000  
 # CMD ["node", "/app/dist/server.js"]
