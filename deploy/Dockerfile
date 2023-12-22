@@ -7,9 +7,6 @@ COPY ./ .
 RUN npm run build
 
 # Production Stage
-FROM nginx as production-stage
-RUN mkdir /app
-COPY --from=build-stage /app/dist /app
-COPY nginx.conf /etc/nginx/nginx.conf
-EXPOSE 80  
-CMD ["nginx", "-g", "daemon off;"]
+FROM socialengine/nginx-spa:latest
+COPY --from=build-stage /app/build /app
+RUN chmod -R 777 /app
