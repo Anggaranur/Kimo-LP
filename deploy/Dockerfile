@@ -8,5 +8,5 @@ RUN npm run build
 
 # Production Stage
 FROM socialengine/nginx-spa:latest
-COPY --from=build-stage /app /app
+COPY --from=build-stage ./dist /app
 RUN chmod -R 777 /app
