@@ -7,8 +7,8 @@ COPY ./ .
 RUN npm run build
 
 # Production Stage
-FROM node:alpine as production-stage
+FROM node:latest as production-stage
 WORKDIR /app
-
-EXPOSE 3000  
-# CMD ["node", "/app/dist/server.js"]
+COPY --from=build-stage /app/dist /app/dist
+EXPOSE 3000 
+CMD ["node", "/app/dist/server.js"]
