@@ -33,7 +33,7 @@ export default {
           class="bg-white h-52 w-screen max-md:bg-[#0000000a] max-md:min-w-[104rem] max-md:h-[600px] relative">
           <h1
             class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] ml-[5rem] max-uxl:ml-[20rem] max-md:left-[6rem] max-sm:left-[15rem] absolute  
-            pt-16 max-xl:left-[8rem] max-uxl:left-[5rem] max-mp:left-[17rem] max-md:text-[60px] max-md:max-w-[1200px]  max-us:left-[5rem]">
+            pt-16 max-xl:left-[8rem] max-2xl:left-[10rem] uxl:left-[20rem] max-uxl:left-[5rem] max-mp:left-[17rem] max-md:text-[60px] max-md:max-w-[1200px]  max-us:left-[5rem]">
             Rasakan Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!
           </h1>
           <p

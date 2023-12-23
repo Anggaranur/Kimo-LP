@@ -23,7 +23,7 @@ module.exports = {
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
       '2xl': '1536px',
-      'uxl': '1600px',
+      'uxl': '1599px',
     },
     extend: {
       colors: {
