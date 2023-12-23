@@ -24,8 +24,8 @@
 
       <!-- menu page scroll bounce -->
       <div class="absolute bg-default top-[530px] h-[65px] w-[65px] rounded-full left-[760px] text-white animate-bounce shadow-2xl z-40 cursor-pointer
-      max-md:h-[200px] max-md:w-[200px] max-md:top-[2300px] max-md:left-[635px] 2xl:left-[47rem] max-ss:left-[37rem] max-us:left-[32rem]" title="See News">
-        <a href="#news" v-smooth-scroll="{ duration: 1000, offset: -50 }">
+      max-md:h-[200px] max-md:w-[200px] max-md:top-[2300px] max-md:left-[635px] 2xl:left-[47rem] max-ss:left-[37rem] max-us:left-[32rem]" title="See Learning Video">
+        <a href="#video" v-smooth-scroll="{ duration: 1000, offset: -50 }">
           <img src="@/assets/down-arrow.png">
         </a>
       </div>

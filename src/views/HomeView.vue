@@ -140,7 +140,7 @@ export default {
       </div>
 
       <!-- Learning Video Title -->
-      <div class="bg-white h-[226px] relative">
+      <div class="bg-white h-[226px] relative" id="video">
         <h1
           class="font-Roboto font-bold text-[40px] absolute top-10 w-[700px] text-center left-[35rem] 2xl:left-[35rem] max-md:text-[100px] 
           max-md:left-[300px] max-md:w-[1000px] max-md:pt-28 max-us:left-[10rem]"
