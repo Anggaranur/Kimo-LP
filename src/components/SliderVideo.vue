@@ -1,7 +1,7 @@
 <template>
   <!-- Dekstop -->
   <div class="hidden md:block">
-  <div class="h-[470px] bg-[#FE9A03] w-[105rem] 2xl:w-[95rem] relative">
+  <div class="h-[470px] bg-[#FE9A03] w-[105rem] 2xl:w-[105rem] relative">
     <vueper-slides
       class=" no-shadow p-20 absolute top-[-40px]"
       :visible-slides="4"
