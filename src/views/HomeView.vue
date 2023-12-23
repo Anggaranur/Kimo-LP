@@ -32,13 +32,13 @@ export default {
         <div
           class="bg-white h-52 w-screen max-md:bg-[#0000000a] max-md:min-w-[104rem] max-md:h-[600px] relative">
           <h1
-            class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] ml-[5rem] max-uxl:ml-[20rem] max-md:left-[6rem] max-sm:left-[15rem] absolute  
-            pt-16 max-xl:left-[8rem] max-2xl:left-[10rem] uxl:left-[20rem] max-uxl:left-[5rem] max-mp:left-[17rem] max-md:text-[60px] max-md:max-w-[1200px]  max-us:left-[5rem]">
+            class="font-extrabold font-Roboto text-[40px] text-center w-[900px] h-[112px] ml-[5rem] max-uxl:ml-[20rem] md:left-[6rem] absolute  
+            pt-16 max-xl:left-[8rem] max-2xl:left-[10rem] uxl:left-[20rem] max-sm:left-[4rem] mp:left-[7rem]  max-md:text-[60px] max-md:max-w-[1200px]   max-us:left-[-7rem]">
             Rasakan Serunya Belajar Bahasa Inggris di Lingkungan yang Mendukung!
           </h1>
           <p
             class="font-Roboto text-center ml-[5rem] absolute  top-[220px] text-[30px] max-xl:w-[900px] max-uxl:ml-[7rem] max-ss:left-[15rem] max-us:left-[5rem]
-            max-xl:left-[350px] max-mp:left-[17rem] max-uxl:left-[5rem] max-md:text-[45px] max-md:max-w-[900px] max-md:left-[19rem] max-md:top-[350px] xl:left-[8rem]">
+            max-xl:left-[310px] max-mp:left-[17rem] max-uxl:left-[5rem] max-md:text-[45px] max-md:max-w-[900px] max-md:left-[19rem] max-md:top-[350px] xl:left-[8rem]">
             Bebas belajar bahasa inggris dimana aja dan kapan aja bareng tutor
             terbaik Kampung Inggris LC
           </p>
@@ -55,7 +55,7 @@ export default {
         class="bg-white h-[154px] max-md:bg-[#0000000a] max-md:w-[104rem] max-md:h-[600px] relative">
         <h1
           class="font-Roboto font-bold text-[40px] w-[50rem] absolute top-[2rem] left-[50rem] max-ss:left-[30rem] 2xl:left-[47rem] max-lg:w-[300px]
-           max-md:text-[90px] max-md:left-[35rem] max-mp:left-[30rem] max-md:w-[700px] max-md:pt-48 max-us:left-[20rem]">
+           max-md:text-[90px] max-md:left-[35rem] max-mp:left-[30rem] max-md:w-[700px] max-md:pt-48 max-us:left-[20rem] lg:left-[48rem]">
           Our Milestones
         </h1>
       </div>
