@@ -28,7 +28,7 @@
   <!-- Dekstop -->
   <div class="hidden md:block bg-[#f5f5f5d0] w-full mt-[150px]">
     <vueper-slides
-      class="no-shadow ml-12 py-16 pl-5 2xl:w-[98rem] 2xl:px-34"
+      class="no-shadow ml-12 py-16 pl-5 max-uxl:w-[98rem] 2xl:px-34"
       :visible-slides="4"
       slide-multiple 
       :gap = "3"
